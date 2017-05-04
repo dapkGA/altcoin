@@ -2,6 +2,10 @@
 
 > One-page VUE JS web app for receiving a JSON feed with posts (published via forestry)
 
+## To Do
+
+* Add notifications on new post
+
 ## Added packages
 
 ```
@@ -10,6 +14,7 @@ npm i axios --save
 npm i lodash@^3.10.1 --save
 npm i vue-notifications --save
 npm i mini-toastr --save
+npm i vue-markdown --save
 
 ```
 
