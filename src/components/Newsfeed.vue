@@ -25,6 +25,9 @@ import moment from 'moment'
 import axios from 'axios'
 import VueMarkdown from 'vue-markdown'
 
+import apicache from 'apicache'
+let cache = apicache.middleware
+
 export default {
   name: 'newsfeed',
   data () {
@@ -47,12 +50,11 @@ export default {
     }
   },
   created () {
-    axios.get(`https://news.altcointrading.net/feed/newsblade/index.json`)
+    axios.get(`https://news.altcointrading.net/feed/newsblade/index.json`, cache('5 seconds'))
     .then(response => {
       this.posts = response.data.sort(function (x, y) {
         var date1 = new Date(x.datetime)
         var date2 = new Date(y.datetime)
-        //  console.log(date1)
         return date2 - date1
       })
     })
@@ -60,7 +62,7 @@ export default {
       this.errors.push(e)
     })
     setInterval(function () {
-      axios.get(`https://news.altcointrading.net/feed/newsblade/index.json`)
+      axios.get(`https://news.altcointrading.net/feed/newsblade/index.json`, cache('9 seconds'))
       .then(response => {
         this.posts = response.data.sort(function (x, y) {
           var date1 = new Date(x.datetime)
