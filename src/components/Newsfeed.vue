@@ -76,5 +76,6 @@ export default {
 </script>
 
 <style scoped>
-
+article a {color: #4a5561!important;background: rgba(186, 188, 189, 0.13);font-weight: 800;}
+article a:hover {background: rgba(186, 188, 189, 0.23)}
 </style>
