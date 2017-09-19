@@ -1,3 +1,18 @@
+# ETH.
+
+
+```
+let iframe = document.createElement('iframe');
+    iframe.setAttribute('src', this.src);
+    iframe.setAttribute('frameborder', 0);
+    iframe.setAttribute('allowfullscreen', true);
+    iframe.setAttribute('width', this.opts.width);
+    iframe.setAttribute('height', this.opts.height);
+
+```
+
+
+
 # news.at.net
 
 > One-page VUE JS web app for receiving a JSON feed with posts (published via forestry)

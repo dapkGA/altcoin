@@ -1,8 +1,6 @@
 <template>
 <section id="altindex">
-  <div class="clearfix clearfix adfix">
-    <amp-ad layout="responsive" width="728px" height="90px" type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="4445157690"></amp-ad>
-  </div>
+
   <div class="clearfix"></div>
   <div v-for="article in $data.posts.slice(0, 20)">
     <h4 class="post">{{article["title"]}}</h4>
@@ -13,7 +11,7 @@
     <p>
       <img v-bind:src="article['image']">
       <span v-if="article == $data.posts[0]">
-        <amp-ad layout="responsive" width="728px" height="90px" type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="4445157690"></amp-ad>
+        <hr>
       </span>
     </p>
   </div>
