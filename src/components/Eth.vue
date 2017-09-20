@@ -1,23 +1,29 @@
 <template>
 <section id="altindex">
 
+  <div class="clearfix"><amp-iframe width="728px" height="90px"
+    layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+    src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+     placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
 
-  &nbsp;
 
-  <!-- the TV widget needs to come from here -->
+  <iframe src="https://data.altcointrading.net/tv/eth.html" width="740" height="310" style="border:none;padding:0;margin-left: -8px;"></iframe>
+
+    &nbsp;
+
   <h4 class="post">{{title}}</h4>
 
   <div class="clearfix"></div>
 
   <div class="row columns twelve">
-
+    <!-- reddit ethereum -->
     <div class="columns three">
-      <div v-for="article in $data.r_ethereum.slice(0, 10)">
+      <div v-for="article in $data.r_ethereum.slice(0, 15)">
         <article>
-        <a v-bind:href="article['data']['permalink']">
+        <a rel="nofollow" target="_blank" v-bind:href="article['data']['permalink']">
           <strong>
             <span class="tag ethereum">r/ethereum</span>&nbsp;
-            {{article['data']["title"]}}
+            <span v-html="article['data']['title']"></span>
           </strong>
         </a>
         <em>{{article['data']['created_utc'] * 1000 | moment }} UTC</em>
@@ -27,49 +33,60 @@
         </article>
       </div>
     </div>
-
+   <!-- ethnews -->
     <div class="columns three">
-      <div v-for="article in $data.ethnews.slice(0, 10)">
+      <div v-for="article in $data.ethnews.slice(0, 15)">
         <article>
-        <a v-bind:href="article['data']['url']">
+        <a rel="nofollow" target="_blank" v-bind:href="article['data']['url']">
           <strong>
-            <span class="tag ethnews">{{article['data']["domain"]}}</span><br>{{article['data']["title"]}}
+            <span class="tag ethnews">{{article['data']["domain"]}}</span>
+            <br>
+            <span v-html="article['data']['title']"></span>
           </strong>
         </a>
-        <em>{{article['data']['created_utc'] * 1000 | moment }} UTC</em>
         <p>
+          <em>{{article['data']['created_utc'] * 1000 | moment }} UTC</em>
           <img v-bind:src="article['data']['thumbnail']">
         </p>
         </article>
       </div>
     </div>
-
+   <!-- telegraph -->
     <div class="columns three">
-      <div v-for="article in $data.posts.slice(0, 15)">
+      <div v-for="article in $data.telegraph.slice(0, 15)">
+        <article>
+        <a rel="nofollow" target="_blank" v-bind:href="article['data']['url']">
+          <strong>
+            <span class="tag ethereum">{{article['data']["domain"]}}</span>
+            <br>
+            <span v-html="article['data']['title']"></span>
+          </strong>
+        </a>
+        <p>
+          <em>{{article['data']['created_utc'] * 1000 | moment }} UTC</em>
+          <img v-bind:src="article['data']['thumbnail']">
+        </p>
+        </article>
+      </div>
+    </div>
+    <!-- altcointrading.net -->
+    <div class="columns three">
+      <div v-for="article in $data.posts.slice(0, 10)">
         <!-- domain missing https://news.altcointrading.net/feed/ -->
-        <a v-bind:href="article['url']">
-          <strong>{{article["title"]}}</strong>
-        </a>
-        <em>{{article.datetime | moment }}</em>
-        <p>
-          <img v-bind:src="article['image']">
-        </p>
-      </div>
-    </div>
-
-    <div class="columns three">
-      <div v-for="article in $data.telegraph.slice(0, 10)">
-        <article>
-        <a v-bind:href="article['data']['url']">
+        <a rel="nofollow" target="_blank" v-bind:href="article['url']">
           <strong>
-            <span class="tag ethereum">{{article['data']["domain"]}}</span><br>{{article['data']["title"]}}
+            <span class="tag ethereum">altcointrading.net</span>
+            <br>
+            <span v-html="article['title']"></span>
           </strong>
         </a>
-        <em>{{article['data']['created_utc'] * 1000 | moment }} UTC</em>
+
         <p>
-          <img v-bind:src="article['data']['thumbnail']">
+          <em>{{article["date"] | moment }}</em>
+          <img v-bind:src="article['img']">
+          <br>
+          <span v-html="article['content']"></span>
         </p>
-        </article>
       </div>
     </div>
 
@@ -113,13 +130,9 @@ export default {
     }
   },
   created () {
-    axios.get(`https://news.altcointrading.net/feed/newsblade/index.json`, cache('60 seconds'))
+    axios.get(`https://www.altcointrading.net/eth.json`, cache('60 seconds'))
     .then(response => {
-      this.posts = response.data.sort(function (x, y) {
-        var date1 = new Date(x.datetime)
-        var date2 = new Date(y.datetime)
-        return date2 - date1
-      })
+      this.posts = response.data
     })
     .catch(error => {
       this.errors.push(error)
@@ -163,9 +176,7 @@ export default {
 
 
 <style scoped>
-.tag{color: white;padding: 5px 9px;}
-.tag.ethnews{background: #7622c5;}
-.tag.ethereum{background: #ffdc00;}
+.tag{color: white;padding: 2px 6px;background: #e3e5e7;}
 
 #altindex em {
     font-family: inherit;
@@ -175,8 +186,8 @@ export default {
     display: block;
 }
 
-article a {color: #4a5561!important;background: rgba(186, 188, 189, 0.13);font-weight: 800;}
-article a:hover {background: rgba(186, 188, 189, 0.23)}
+article a {color:#4a5561!important;background:transparent;font-weight: 800;}
+article a:hover {color:#001f3f!important;background:transparent}
 .feedcol {width: 100%}
 @media (min-width: 771px) {
  .feedcol {
