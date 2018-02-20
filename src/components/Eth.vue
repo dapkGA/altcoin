@@ -1,6 +1,10 @@
 <template>
 <section id="altindex">
 
+  <p>
+    <router-link to="/">Altcoin Trading News</router-link> > <router-link to="eth">ETH News Aggregator</router-link>
+  </p>
+
   <div class="clearfix"><amp-iframe width="728px" height="90px"
     layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
     src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"

@@ -1,5 +1,8 @@
 <template>
 <section id="altindex">
+  <p>
+    <router-link to="/">Altcoin Trading News</router-link> > <router-link to="eth">ETH News Aggregator</router-link>
+  </p>
 
   <div class="clearfix"></div>
   <div v-for="article in $data.posts.slice(0, 20)">
