@@ -1,0 +1,135 @@
+<div id="sidebar">
+
+  <section class="posts-security" id="gtm-sidebar-fibs">
+    {% include latestfibs.html %}
+  </section>
+  <section class="text-center" id="gtm-cointraffic">
+    <span id="ct_cqwIGOX"></span>  
+  </section>
+  <section>
+    <h3>Important Dates</h3>
+    <ul>
+      <li>
+        <a rel="nowollow" target="_blank" href="http://www.cmegroup.com/trading/equity-index/us-index/bitcoin_product_calendar_futures.html">CME bitcoin futures settlement dates</a>
+      </li>
+      <li>
+        <a rel="nowollow" target="_blank" href="http://cfe.cboe.com/cfe-products/xbt-cboe-bitcoin-futures">CBOE bitcoin futures settlement dates</a>
+      </li>
+    </ul>
+  </section>
+  <section class="posts-security" id="gtm-sidebar-security">
+    {% include latestsecurity.html %}
+  </section>
+  <section>
+      <h3>Latest PSA's:</h3>
+      <ul>
+      {% assign items = (site.posts | sort: date) | reverse %}
+      {% for post in items  %}
+      {% if post.note contains 'PSA' %}
+      <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+        <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
+      </a>
+      </br>
+      {% endif %}
+      {% endfor %}
+      </ul>
+  </section>
+
+  <section class="posts-security" id="gtm-sidebar-strategy">
+    {% include lateststrategy.html %}
+  </section>
+  <section>
+     <h3>Coupon Codes For Crypto Exchanges:</h3>
+      <ul class="airdrops">
+        <li>
+          <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
+        <li>
+          <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
+        <li>
+          <a class="internal" href="{{site.url}}{{site.baseurl}}/referral-coupons/">Other coupons and rebate offers</a></li>
+      </ul>
+  </section>
+   <section>
+    <h3>Everyone's Favorite Cold Storage (BTC+ERC20)</h3>
+    {{ site.ledger_300-250_animated }}
+    <p>
+      <u>Fully Opensource - Ethereum tokens supported</u>
+      <br>
+      <strong>{% aff Ledger Nano S https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s %}</strong> native support: BTC, ETH, ETC, DOGE, LTC, ZEC, DASH, XRP, STRAT.
+      <br>
+      <strong>Support of any ERC20 token via MyEtherWallet:</strong>DAO, DGD, DGX 1.0, GNO, GNT, ICN, LUN, MLN and more.
+    </p>
+   </section>
+   <section>
+     <h3>Bitcoin Forks List</h3>
+      {{ site.forkit }}
+      <p>&nbsp;</p>
+   </section>
+   <section>
+    <ul class="divided">
+      <li>
+      <h3>Altcoin Performance:</h3>
+        <div>
+          <amp-iframe
+            width=320 height=235px
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://data.altcointrading.net/compare/">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
+        </div>
+      </li>
+      <li>
+        <strong>Altcoin Trading Telegram Group</strong>
+        <p><a target="_blank" href="https://t.me/altcointrading_net" title="Telegram altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a></p>
+      </li>
+      <li>
+        <h3>Cryptocurrency Markets Data</h3>
+        <ul>
+          <li>
+            <a title="spreadstreet" href="https://spreadstreet.io" target="_blank" rel="nofollow">Spreadstreet.io (free *.csv datasets)</a>
+          </li>
+          <li>
+            <a title="cryptosignal" href="https://cryptosign.al/" target="_blank" rel="nofollow">Cryptosign.al (charting price vs hash rate)</a>
+          </li>
+          <li>
+            <a title="cointradeanalysis" href="https://cointradeanalysis.ovh/" target="_blank" rel="nofollow">Cointradeanalysis.ovh (exchange monitoring)</a>
+          </li>
+        </ul>
+      </li>
+
+      <h3>Bitcoin News:</h3>
+        <ul>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="https://www.reddit.com/r/bitcoinmarkets">/r/bitcoinmarkets</a></li>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="https://www.reddit.com/r/cryptomarkets">/r/cryptomarkets</a></li>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="http://www.altcointoday.com">AltcoinToday</a></li>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="http://www.coindesk.com/category/technology/altcoins/">Coindesk</a></li>
+        </ul>
+      <li>
+        <h3>Algo Trading</h3>
+        <ul>
+          <li><a title="algo trading" target="_blank" href="https://cryptotradingtools.com">Crypto Trading Tools</a></li>
+          <li><a title="altindex dataset" target="_blank"  href="https://data.altcointrading.net/api/chartdata.json">AltIndex chart data source</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>Find us on:</h3>
+        <span itemscope itemtype="http://schema.org/Organization">
+          <link itemprop="url" href="https://www.altcointrading.net">
+          <a itemprop="sameAs" href="https://t.me/altcointrading_net">Telegram</a>
+          &nbsp;-&nbsp;
+          <a itemprop="sameAs" href="https://reddit.com/r/altcointrader">Reddit</a>
+          &nbsp;-&nbsp;
+          <a itemprop="sameAs" href="https://www.facebook.com/groups/332750657242745/">Facebook Group: Altcoin Trading Chatroom</a>
+          &nbsp;-&nbsp;
+          <a itemprop="sameAs" href="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/">Facebook Page</a>
+        </span>
+      </li>
+
+
+
+
+    </ul>
+  </section>
+</div>
