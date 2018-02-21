@@ -53,7 +53,6 @@ layout: default-news
           <hr>
           {% endif %}
 
-          {% if page.author_bio %}
           <section class="altcointradingnet-bio">
             <p>
               <strong>About the author</strong>
@@ -61,11 +60,14 @@ layout: default-news
             <p>
               Written by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>
             </p>
-            <p>
-              {{ page.author_bio }}
-            </p>
+            <div>
+              {% if page.author_name contains "KarlVonBahnhof" %}
+                {% include bios/karlvonbahnhof.html %}
+              {% elsif page.author_name contains "tradingfanbois"  %}
+                {% include bios/tradingfanbois.html %}
+              {% endif %}
+            </div>
           </section>
-          {% endif %}
 
           <hr>
 
@@ -77,10 +79,18 @@ layout: default-news
           {% if page.cz %}<a href="https://altcointrading.cz/{{page.cz}}/?utm_medium=Google-News&utm_source=AltcoinTradingNews">[Read this article in Czech]</a>{% endif %}
           &nbsp;
           </div>
+
+
           <hr>
-          <div>
-          <p>{{ site.mailchimp_thin }}</p>
+
+          <div class="clearfix"></div>
+
+          <div class="mailchimpfix">
+          <amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+          src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
           </div>
+
+          <div class="clearfix"></div>
 
           <hr>
 

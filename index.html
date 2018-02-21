@@ -7,13 +7,17 @@ navi:
   <div class="row">
    <div class="eight columns offset-by-two">
 
+
+
     <section id="new-posts">
+
+      <span class="note">Latest News from AltcoinTrading.net</span>
+
 
       <!-- SLOT 1  -->
       {{ site.ledger_728-90_animated }}
       <br>
 
-      <span class="note">Latest News from AltcoinTrading.net</span>
 
 
       <!-- Pagination links -->
@@ -43,7 +47,10 @@ navi:
                 {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
                 {% endif %}
                 <small>{{ post.date | date: "%d %b %Y, %R" }} UTC</small>
-                {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+
+                {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>
+                {% elsif post.author %}<small class="author">&nbsp;&middot;&nbsp;By {{ post.author_name }}</small>
+                {% endif %}
                 <br>
                 <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
               </strong>
