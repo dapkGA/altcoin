@@ -62,9 +62,11 @@ layout: default-news
             </p>
             <div>
               {% if page.author_name contains "KarlVonBahnhof" %}
-                {% include bios/karlvonbahnhof.html %}
+                {% assign item = site.author_details[0] %}
+                  {% include bios/template.html %}
               {% elsif page.author_name contains "tradingfanbois"  %}
-                {% include bios/tradingfanbois.html %}
+                {% assign item = site.author_details[1] %}
+                  {% include bios/template.html %}
               {% endif %}
             </div>
           </section>
@@ -85,9 +87,11 @@ layout: default-news
 
           <div class="clearfix"></div>
 
-          <div class="mailchimpfix">
-          <amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-          src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+          <div class="container-center">
+            <div class="clearfix">
+            <amp-iframe width="400px" height="300px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://amp2disqus.netlify.com/altcointrading/signup.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+            </div>
           </div>
 
           <div class="clearfix"></div>

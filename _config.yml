@@ -26,13 +26,15 @@ collections:
 author: "AltcoinTrading.NET"
 markdown: kramdown
 
-# literally copied system from ATNET where it works
-# ... ? ...
-# doesnt work here
-# how the fuck this fucking shitshow for fucks sakes?
+# how the fuck ..
 permalink: /:title/
 post_dirs: false
 permalink: pretty
+# nvm ..
+
+author_details:
+  - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: "https://t.co/karlvonbahnhof", email: "chris@altcointrading.net"}
+  - {name: "TradingFanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. Also answering your quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
 
 defaults:
  -

@@ -5,3 +5,11 @@
 .altcointradingnet-bio #author-social > a {
   border-bottom: none
 }
+.container-center {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
