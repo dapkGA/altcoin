@@ -5,63 +5,16 @@ navi:
 ---
 <div class="container">
   <div class="row">
-   <div class="eight columns swapper">
+   <div class="eight columns offset-by-two">
 
-    <section id="popular-posts">
+    <section id="new-posts">
 
       <!-- SLOT 1  -->
       {{ site.ledger_728-90_animated }}
       <br>
 
-      <span id="note">Popular</span>
-      {% for post in site.security %}
-         {% if post.tags contains 'popular' %}
-          <h3 class="popular">
-            <a class="index-internal popular-security" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-              <span>SECURITY</span> {{ post.title }}
-            </a>
-          </h3>
-          <p>
-          {{ post.description }}
-          </p>
-        {% endif %}
-      {% endfor %}
-      {% for post in site.posts %}
-         {% if post.tags contains 'popular' %}
-          <h3 class="popular">
-            <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-          </h3>
-          <p>
-          {% if post.last_modified_at %}[UPDATE {{ post.last_modified_at | date: "%d %b %Y" }}] {% endif %}{{ post.description }}
-          </p>
-        {% endif %}
-      {% endfor %}
-    </section>
+      <span class="note">Latest News from AltcoinTrading.net</span>
 
-    {{ site.ads.binance728 }}
-
-    <section id="new-posts">
-
-      <span class="note">Latest</span>
-
-      <div class="row home-top-new" id="gtm-top-new-1">
-        {% unless post.tags contains 'press' %}
-          {% for post in site.posts offset: 0 limit: 2 %}
-            {% include latestarticle.html %}
-          {% endfor %}
-         {% endunless %}
-      </div><!-- row end-->
-      <div class="row home-top-new" id="gtm-top-new-2">
-        {% unless post.tags contains 'press' %}
-          {% for post in site.posts offset: 2 limit: 2 %}
-            {% include latestarticle.html %}
-          {% endfor %}
-         {% endunless %}
-      </div><!-- row end-->
-
-
-      <!-- SLOT 2 -->
-      <p>{{ site.ads.kucoin728 }}</p>
 
       <!-- Pagination links -->
       <div class="pagination">
@@ -79,30 +32,8 @@ navi:
       </div>
 
 
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-      <script type="text/javascript">
-      $(document).ready(function($) {
 
-      	$.get("https://api.teletext.io/api/v1/geo-ip", function(response) {
-      		var country = response["alpha2"];
-        	console.log(country);
-      		// ZA, IN, KR
-      		if ( country == 'US' ) {
-      			$("#nous").addClass("hidden");
-      		} else {
-      			$("#nous").addClass("visible");
-      		}
-      	});
-
-
-      });
-      </script>
-      <!-- SLOT 3 -->
-      <p>{{ site.affop.system }}</p>
-
-
-
-      {% for post in paginator.posts offset:4  %}
+      {% for post in paginator.posts  %}
 
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
@@ -155,24 +86,10 @@ navi:
 
     </section>
 
-    <section>
-     <h3 class="home-bottom">Current airdrops & forks:</h3>
-     {% include thismonth-airdrops.html %}
-    </section>
+
 
     <section>
-       <h3 class="home-bottom">Recent News via Reddit:</h3>
-         <amp-iframe
-           width=750 height=350
-           layout="responsive"
-           sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-           src="https://data.altcointrading.net/reddit/">
-           <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-         </amp-iframe>
-    </section>
-
-    <section>
-      <h3 class="home-bottom">Follow this site</h3>
+      <h3 class="home-bottom">Follow AltcoinTrading.net</h3>
       {{ site.mailchimp_thin }}
     </section>
 
@@ -183,11 +100,6 @@ navi:
 
       </div>
 
-
-
-    <div class="four columns notopmargin">
-      {% include sidebar.html %}
-    </div>
 
   </div>
   </div>

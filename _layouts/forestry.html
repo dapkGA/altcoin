@@ -5,10 +5,14 @@ layout: default-news
 <div class="container">
   <div class="row">
 
-   <div class="eight columns post-content">
-     <div class="shifted-left">
-       {{ site.ads.kucoin728 }}
+   <div class="eight columns post-content offset-by-two">
+
+     <div>
+       {{ site.ledger_728-90_animated }}
      </div>
+
+     <br>
+
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
          {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;
@@ -22,106 +26,64 @@ layout: default-news
             {{ page.title }}
           </strong>
         </h4>
-        <div>
-        {% if page.german %}<a href="https://de.altcointrading.net/{{page.german}}">[DE]</a>{% endif %}
-        &nbsp;
-        {% if page.cz %}<a href="https://altcointrading.cz/{{page.cz}}/">[CZ]</a>{% endif %}
-        &nbsp;
-        </div>
-        <br>
-        <article class="maincontent">
+          <article class="maincontent">
           <div>
             {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
           </div>
-          <p>
-            <em>
-              Image: {{page.image_alt[0]}}
-            </em>
-          </p>
-          <hr>
+
           <div>
             {% include dogeshare.html %}
           </div>
-          <hr>
-          {% if page.related %}
-          <div class="related">
-            <p><strong>Related posts:</strong></p>
-            <ul>
-              {% for line in page.related %}{% for item in line %}<li><a href="{{ item[1] }}">{{ item[0] }}</a></li>{% endfor %}{% endfor %}
-            </ul>
-          </div>
-          {% endif %}
-          <hr>
-          <div>
-            {{ site.ledger_728-90_animated }}
-          </div>
-          <hr>
-          <div>
-            {{ content | replace: 'Kucoin ', site.ref.kucoin | replace: 'Bitfinex ', site.ref.bitfinex | replace: 'Binance ', site.ref.binance | replace: 'Coinbase ', site.ref.coinbase | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
-          </div>
+
 
           <hr>
+
+          <div>
+            {{ content }}
+          </div>
+
           {% if page.related %}
+          <hr>
           <div class="related">
             <p><strong>Related posts:</strong></p>
             <ul>
-              {% for line in page.related %}{% for item in line %}<li><a href="{{ item[1] }}">{{ item[0] }}</a></li>{% endfor %}{% endfor %}
+              {% for line in page.related %}{% for item in line %}<li><a href="{{ site.atneturl }}{{ item[1] }}?utm_medium=Google-News&utm_source=AltcoinTradingNews">{{ item[0] }}</a></li>{% endfor %}{% endfor %}
             </ul>
           </div>
+          <hr>
           {% endif %}
+
+          {% if page.author_bio %}
+          <section class="altcointradingnet-bio">
+            <p>
+              <strong>About the author</strong>
+            </p>
+            <p>
+              Written by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>
+            </p>
+            <p>
+              {{ page.author_bio }}
+            </p>
+          </section>
+          {% endif %}
+
+          <hr>
+
+          <div>
+          <a href="https://www.altcointrading.net/{{page.url}}?utm_medium=Google-News&utm_source=AltcoinTradingNews">[Read this article on AltcoinTrading.NET]</a>
+          &nbsp;
+          {% if page.german %}<a href="https://de.altcointrading.net/{{page.german}}?utm_medium=Google-News&utm_source=AltcoinTradingNews">[Read this article in German]</a>{% endif %}
+          &nbsp;
+          {% if page.cz %}<a href="https://altcointrading.cz/{{page.cz}}/?utm_medium=Google-News&utm_source=AltcoinTradingNews">[Read this article in Czech]</a>{% endif %}
+          &nbsp;
+          </div>
           <hr>
           <div>
           <p>{{ site.mailchimp_thin }}</p>
           </div>
 
           <hr>
-          <div>
-          <p>
-            <em>
-              Join our Telegram group: <a title="{{ site.title }} Telegram" target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
-            </em>
-          </p>
 
-          <p>
-            <em>
-              Join our Facebook group: <a title="{{ site.title }} Facebook Group" target="_blank" href="https://www.facebook.com/groups/332750657242745/"><i class="fa fa-facebook"></i> Altcoin Trading Chatroom</a>
-            </em>
-          </p>
-          <p>
-            <em>
-              Subscribe to our subreddit: <a title="{{ site.title }} Reddit" target="_blank" href="https://reddit.com/r/altcointrader"><i class="fa fa-reddit"></i> r/altcointrader</a>
-            </em>
-
-          </p>
-          </div>
-          <hr>
-          <div>
-            {% include dogeshare.html %}
-          </div>
-
-
-          <hr>
-
-            {% if page.stories %}
-            <p>
-              <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
-            </p>
-
-            <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "Person",
-              "name": "{{ page.author_name }}",
-              "url": "https://www.altcointrading.net",
-              "sameAs": [
-                "{{ page.author }}"
-              ]
-            }
-            </script>
-
-            {% endif %}
-
-          </p>
 
           {% if page.comments %}
 
@@ -152,16 +114,32 @@ layout: default-news
 
           <hr>
 
-          <p>Comments are disabled for this post.</p>
+          <p>Comments are disabled for this article.</p>
 
           <hr>
 
           {% endif %}
 
+          {% if page.stories %}
+          <p>
+            <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
+          </p>
+
+          <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "{{ page.author_name }}",
+            "sameAs": [
+              "{{ page.author }}"
+            ]
+          }
+          </script>
+
+          {% endif %}
+
+
         </article>
-    </div>
-    <div class="four columns nomargintop">
-      {% include sidebar.html %}
     </div>
   </div>
 </div>

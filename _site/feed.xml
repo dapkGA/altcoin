@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Altcoin Trading - All Posts</title>
-    <description>Crypto trading is the forex of cryptocurrencies, including bitcoin, altcoins, ICOs and pre-sales.</description>
-    <link>https://www.altcointrading.net/</link>
+    <title>News AltcoinTrading.NET - All Posts</title>
+    <description>...</description>
+    <link>https://news.altcointrading.net/</link>
     <image>
-      <url>https://www.altcointrading.net/img/logo.jpg</url>
-      <title>Altcoin Trading</title>
-      <link>https://www.altcointrading.net/</link>
+      <url>https://news.altcointrading.net/img/logo.jpg</url>
+      <title>News AltcoinTrading.NET</title>
+      <link>https://news.altcointrading.net/</link>
     </image>
-    <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Feb 2018 17:35:27 +0000</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2018 17:35:27 +0000</lastBuildDate>
+    <atom:link href="https://news.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 20 Feb 2018 18:55:07 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2018 18:55:07 +0000</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -22,8 +22,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Thu, 01 Feb 2018 01:13:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/dai-stablecoin</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/dai-stablecoin</guid>
+        <link>https://news.altcointrading.net/dai-stablecoin/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/dai-stablecoin/</guid>
         
         <category>dai</category>
         
@@ -54,8 +54,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Wed, 31 Jan 2018 00:53:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/tether-subpoena</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/tether-subpoena</guid>
+        <link>https://news.altcointrading.net/tether-subpoena/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/tether-subpoena/</guid>
         
         <category>bitfinex</category>
         
@@ -86,8 +86,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Wed, 24 Jan 2018 03:56:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/weiss-rating</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/weiss-rating</guid>
+        <link>https://news.altcointrading.net/weiss-rating/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/weiss-rating/</guid>
         
         <category>weiss-rating</category>
         
@@ -112,8 +112,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Fri, 19 Jan 2018 18:56:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/cakewallet</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/cakewallet</guid>
+        <link>https://news.altcointrading.net/cakewallet/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/cakewallet/</guid>
         
         <category>monero</category>
         
@@ -142,8 +142,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Thu, 18 Jan 2018 10:56:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/blockstream-lightning-charge</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/blockstream-lightning-charge</guid>
+        <link>https://news.altcointrading.net/blockstream-lightning-charge/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/blockstream-lightning-charge/</guid>
         
         <category>blockstream</category>
         
@@ -170,8 +170,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Tue, 16 Jan 2018 22:10:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/exchange-tos-comparison</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/exchange-tos-comparison</guid>
+        <link>https://news.altcointrading.net/exchange-tos-comparison/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/exchange-tos-comparison/</guid>
         
         <category>kraken</category>
         
@@ -196,8 +196,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Thu, 28 Dec 2017 22:56:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/south-korea-arbitrage</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/south-korea-arbitrage</guid>
+        <link>https://news.altcointrading.net/south-korea-arbitrage/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/south-korea-arbitrage/</guid>
         
         <category>south-korea</category>
         
@@ -220,8 +220,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Sun, 24 Dec 2017 15:06:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/cex-io-registrations</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/cex-io-registrations</guid>
+        <link>https://news.altcointrading.net/cex-io-registrations/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/cex-io-registrations/</guid>
         
         <category>cex-io</category>
         
@@ -244,8 +244,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Wed, 20 Dec 2017 11:16:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/bitfinex-referrals-stopped</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/bitfinex-referrals-stopped</guid>
+        <link>https://news.altcointrading.net/bitfinex-referrals-stopped/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/bitfinex-referrals-stopped/</guid>
         
         <category>bitfinex</category>
         
@@ -268,8 +268,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Fri, 15 Dec 2017 01:16:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/kraken-upgrade</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/kraken-upgrade</guid>
+        <link>https://news.altcointrading.net/kraken-upgrade/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/kraken-upgrade/</guid>
         
         <category>kraken</category>
         
