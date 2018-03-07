@@ -2,21 +2,19 @@
 
 {% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
 
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-{% unless page.title %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net">{% endunless %}
-{% unless page.title %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz">{% endunless %}
-
-{% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
-{% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}">{% endif %}
+<!-- canonical to main page -->
+<link rel="canonical" href="https://www.altcointrading.net{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title | capitalize }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="keywords" content="altcoin trading, cryptocurrency trading, cryptocurrency wallets, cryptocurrency exchanges">
+<meta name="keywords" content="altcoin trading news, crypto trading news, cryptocurrency analysis, cryptocurrency exchange news">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/{% endif %}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+<meta name="coinzilla" content="coinzilla-294395a915df444114" />
+
 
 <!-- opengraph -->
 <meta property="og:locale" content="en" />
@@ -45,7 +43,7 @@
   {% unless page.title %}
   "@type": "WebSite",
   "@id":"#website",
-  "url":"{{ site.url }}{{ site.baseurl}}"
+  "url":"{{ site.url }}{{ site.baseurl}}",
   {% else %}
   "@type": "BlogPosting",
   "mainEntityOfPage":{
@@ -54,20 +52,22 @@
   },
   "headline": "{{ page.title }}",
   {% endunless %}
-  "name": "AltcoinTrading.net",
+  "name": "AltcoinTrading.NET",
   "author": {
     "@type": "Organization",
-    "name": "AltcoinTrading.net",
-    "contactPoint": "info@altcointrading.net"
+    "name": "AltcoinTrading.NET",
+    "contactPoint": {
+     "@type": "ContactPoint",
+     "contactType": "sales",
+     "telephone": "+595 21 620 7326"
+   }
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AltcoinTrading.net",
+    "name": "AltcoinTrading.NET",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.url }}{{ site.baseurl}}/img/logo.jpg",
-      "width": 90,
-      "height": 75
+      "url": "{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
     }
   },
   "image": {
@@ -75,7 +75,9 @@
     "url": "{{ site.url }}{{ site.baseurl }}/img/emotions/whales.jpg",
     "height": 700,
     "width": 360
-  }
+  },
+  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"
 }
 </script>
 <!-- AMP allowed resources -->
