@@ -10,9 +10,39 @@
       <link>https://news.altcointrading.net/</link>
     </image>
     <atom:link href="https://news.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Mar 2018 17:50:29 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Mar 2018 17:50:29 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Mar 2018 14:27:57 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Mar 2018 14:27:57 +0000</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>In the light of regulations: How about non-custodial derivative trading?</title>
+        <description>LeverJ is a mixture of DEx and a centralized platform so that the trading does not get sluggish when other folks play Cryptokitties.</description>
+
+        <author>tradingfanbois@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Thu, 08 Mar 2018 01:35:00 +0000</pubDate>
+        <link>https://news.altcointrading.net/leverj/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/leverj/</guid>
+        
+        <category>leverj</category>
+        
+        <category>leverj-io</category>
+        
+        <category>dex</category>
+        
+        <category>decentralized-exchange</category>
+        
+        <category>crypto-trading</category>
+        
+        
+        <category>trading</category>
+        
+        <category>exchanges</category>
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Circle acquired Poloniex Exchange</title>
@@ -269,30 +299,6 @@
         
         
         <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>CEX.IO Not Accepting New Users for the Time Being</title>
-        <description>The cryptocurrency exchange CEX.IO just sent out an email they are temporarily not accepting new users to the platform.</description>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Sun, 24 Dec 2017 15:06:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/cex-io-registrations/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/cex-io-registrations/</guid>
-        
-        <category>cex-io</category>
-        
-        <category>cex-io-signup</category>
-        
-        <category>cryptocurrency-exchange</category>
-        
-        <category>exchange-issues</category>
-        
-        
-        <category>exchanges</category>
         
       </item>
     

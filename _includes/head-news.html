@@ -54,49 +54,80 @@
 <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage":{
-    "@type":"WebPage",
-    "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
-  },
-  "headline": "{{ page.title }}",
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}",
-    "height": 700,
-    "width": 360,
-    "associatedArticle": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
-    "caption": "{{ page.image_alt[0] }}"
-  },
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-  "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ page.author_name }}",
-    "contactPoint": "{{ page.author }}"
-  },
-  {% if page.about %}
-  "about": {
-    "@type": "Thing",
-    "name": "{{ page.about.name }}",
-    "sameAs": [
-      {% for item in page.about.sameas %}"{{ item }}"{% if forloop.last == false %},{% endif %}
-      {% endfor %}]
-  },
-  {% endif %}
-   "publisher": {
-    "@type": "Organization",
-    "name": "AltcoinTrading.NET",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{ site.baseurl}}/img/logo.jpg",
-      "width": 75,
-      "height": 90
-    }
-  },
-  "description": "{{ page.description }}"
+ "@context":"http:\/\/schema.org",
+ "@type":"Organization",
+ "url":"{{ site.url | xml_escape }}",
+ "sameAs":[
+    "https:\/\/t.me\/altcointrading_net",
+    "https:\/\/reddit.com\/r\/altcointrader",
+    "https:\/\/www.facebook.com\/groups\/332750657242745\/",
+    "https:\/\/twitter.com\/altcointrading_",
+    "https:\/\/medium.com\/cryptolounge",
+    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
+    "https:\/\/www.investfeed.com\/atnet\/overview"
+ ],
+ "@id":"#organization",
+ "name":"AltcoinTrading.NET",
+ "logo":{
+    "@type":"ImageObject",
+    "url":"https://i.imgur.com/YiUXPdY.jpg",
+    "width":350,
+    "height":60
+ },
+ "telephone":"+595 21 620 7326",
+ "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794",
+    "addressLocality":"Asuncion",
+    "addressCountry":"PY",
+    "postalCode":"3794"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+   "@context":"http:\/\/schema.org",
+   "@type":"Article",
+   "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#article",
+   "mainEntityOfPage":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}",
+   "publisher":{
+      "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#organization"
+   },
+   "headline":"{{ page.title | xml_escape }}",
+   "datePublished": "{{ page.date | date_to_xmlschema }}",
+   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "author":[
+      {
+         "@type":"Person",
+         "name":"{{ page.author_name }}"
+      }
+   ],
+   "description":"{{ page.description | xml_escape }}",
+   "articleBody":"{{ page.content | xml_escape }}",
+   "isPartOf":{
+      "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#webpage"
+   },
+   "image":[
+     {% for item in page.image %}"{{ item | prepend: site.baseurl | prepend: site.url | xml_escape }}"{% if forloop.last == false %},{% endif %}
+     {% endfor %}
+   ],
+   {% if page.about %}
+   "about": {
+     "@type": "Thing",
+     "name": "{{ page.about.name }}",
+     "sameAs": [
+       {% for item in page.about.sameas %}"{{ item }}"{% if forloop.last == false %},{% endif %}
+       {% endfor %}]
+   },
+   {% endif %}
+   "mentions":[
+      {
+         "@type":"Person",
+         "name":"{{ page.author_name }}",
+         "sameAs":"{{ page.author | xml_escape }}"
+      }
+   ]
 }
 </script>
 <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>

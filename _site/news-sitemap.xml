@@ -7,8 +7,29 @@
   
 
     <url>
+      <loc>https://news.altcointrading.net/leverj/</loc>
+      <lastmod>2018-03-08T14:27:48+00:00</lastmod>
+
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-03-08T01:35:00+00:00</news:publication_date>
+        <news:title>In the light of regulations: How about non-custodial derivative trading?</news:title>
+        <news:keywords>altcoin trading, cryptocurrency, ethereum, bitcoin, erc20</news:keywords>
+        <news:stock_tickers>CURRENCY:BTC, OTCMKTS:GBTC</news:stock_tickers>
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>https://news.altcointrading.net/circle-poloniex/</loc>
-      <lastmod>2018-02-26T14:51:09+00:00</lastmod>
+      <lastmod>2018-03-07T17:51:14+00:00</lastmod>
 
       <news:news>
         <news:publication>
@@ -29,7 +50,7 @@
 
     <url>
       <loc>https://news.altcointrading.net/millennials-bitcoin-valuation/</loc>
-      <lastmod>2018-02-26T11:58:19+00:00</lastmod>
+      <lastmod>2018-03-07T17:51:14+00:00</lastmod>
 
       <news:news>
         <news:publication>

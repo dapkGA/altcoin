@@ -56,41 +56,127 @@
 <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage":{
-    "@type":"WebPage",
-    "@id":"https://news.altcointrading.net/trezor-hack"
-  },
-  "headline": "Trezor devices have serious security vulnerability",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://news.altcointrading.net/img/bitfinex/gox.png",
-    "height": 700,
-    "width": 360,
-    "associatedArticle": "https://news.altcointrading.net/trezor-hack",
-    "caption": "The only way to keep Trezor (and Keepkey!) safe is to lock it up in a trezor. You could have done that with a paper wallet though..."
-  },
-  "datePublished": "2017-08-17T12:18:25+00:00",
-  "dateModified": "2018-02-20T17:39:24+00:00",
-  "contentReferenceTime": "2018-02-20T17:39:24+00:00",
-  "author": {
-    "@type": "Person",
-    "name": "KarlVonBahnhof",
-    "contactPoint": "https://reddit.com/u/KarlVonBahnhof"
-  },
-  
-   "publisher": {
-    "@type": "Organization",
-    "name": "AltcoinTrading.NET",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://news.altcointrading.net/img/logo.jpg",
-      "width": 75,
-      "height": 90
-    }
-  },
-  "description": "...even after yesterdays security update of the firmware."
+ "@context":"http:\/\/schema.org",
+ "@type":"Organization",
+ "url":"https://news.altcointrading.net",
+ "sameAs":[
+    "https:\/\/t.me\/altcointrading_net",
+    "https:\/\/reddit.com\/r\/altcointrader",
+    "https:\/\/www.facebook.com\/groups\/332750657242745\/",
+    "https:\/\/twitter.com\/altcointrading_",
+    "https:\/\/medium.com\/cryptolounge",
+    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
+    "https:\/\/www.investfeed.com\/atnet\/overview"
+ ],
+ "@id":"#organization",
+ "name":"AltcoinTrading.NET",
+ "logo":{
+    "@type":"ImageObject",
+    "url":"https://i.imgur.com/YiUXPdY.jpg",
+    "width":350,
+    "height":60
+ },
+ "telephone":"+595 21 620 7326",
+ "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794",
+    "addressLocality":"Asuncion",
+    "addressCountry":"PY",
+    "postalCode":"3794"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+   "@context":"http:\/\/schema.org",
+   "@type":"Article",
+   "@id":"https://news.altcointrading.net/trezor-hack#article",
+   "mainEntityOfPage":"https://news.altcointrading.net/trezor-hack",
+   "publisher":{
+      "@id":"https://news.altcointrading.net/trezor-hack#organization"
+   },
+   "headline":"Trezor devices have serious security vulnerability",
+   "datePublished": "2017-08-17T12:18:25+00:00",
+   "dateModified": "2018-02-20T17:39:24+00:00",
+   "contentReferenceTime": "2018-02-20T17:39:24+00:00",
+   "author":[
+      {
+         "@type":"Person",
+         "name":"KarlVonBahnhof"
+      }
+   ],
+   "description":"...even after yesterdays security update of the firmware.",
+   "articleBody":"&lt;p&gt;Just yesterday, Trezor released a security update. It updated your firmware to version 1.5.2 as older versions of firmware could make your seedphrase visible to someone who’d steal the device, took it apart and flashed it with a hacked-up firmware.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.trezor.io/trezor-firmware-security-update-1-5-2-5ef1b6f13fed&quot;&gt;Here&lt;/a&gt; is the official story from Satoshi Labs:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is important to note that this is not a remote execution attack. To exploit this issue, an attacker would need physical access to a disassembled TREZOR device with uncovered electronics. It is impossible to do this without destroying the plastic case.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In order to exploit this issue, an attacker would have to break into the device, destroying the case in the process. They would also need to flash the device with a specially-crafted firmware. If your device is intact, your seed is safe, and you should update your firmware to 1.5.2 as soon as possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With firmware 1.5.2, this attack vector is eliminated and your device is safe.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As it happens, &lt;a href=&quot;https://medium.com/@Zero404Cool/trezor-security-glitches-reveal-your-private-keys-761eeab03ff8&quot;&gt;the unofficial version&lt;/a&gt; is a lot worse:&lt;/p&gt;
+
+&lt;p&gt;The frantic patch creation we see now, before any coins have been lost (apparently), is because the &lt;a href=&quot;https://media.defcon.org/DEF%20CON%2025/DEF%20CON%2025%20presentations/DEFCON-25-Datko-and-Quartier-Breaking-Bitcoin-Hardware-Wallets.pdf&quot;&gt;issue was talked about at DEF CON 25&lt;/a&gt;. All Trezors, regardless of the firmware, use a chip that is vulnerable. According to the author of the article linked above, the chip will always be vulnerable in some way and Trezors are not safe unless all devices are replaced with ones that use safer chips.&lt;/p&gt;
+
+&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Altcoin Trading - Trezor Vulnerability&quot; src=&quot;https://cdn-images-1.medium.com/max/1000/1*wZCWyhLJHmg_6S2XqFwdTQ.jpeg&quot; layout=&quot;responsive&quot; data-original-width=&quot;1000px&quot; data-original-height=&quot;268px&quot; width=&quot;750px&quot; height=&quot;200px&quot;&gt;&lt;/amp-img&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Furthermore:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Trezor so far greatly downplays the importance of this hack. There is no long-term access needed to copy all your secret information from Trezor using this hack, &lt;strong&gt;it can be done just in 15 seconds&lt;/strong&gt;. If your Trezor is stolen, you don’t even have time to transfer you funds to a new address. &lt;strong&gt;Government authorities can access all your Bitcoins and other crypto currencies without even asking for your consent. If you are crossing an international border, TSA can easily check your balances, etc.&lt;/strong&gt; IRL, Trezor is as safe as leaving your cash or wallet on the table. On top of all that, your Trezor can be restored to its original state or replaced with identical Trezor with the same configuration, you wouldn’t even notice any difference until it is too late.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The exploit surely now can be done in 15 seconds at the airport since the &lt;a href=&quot;https://satoshibox.com/fwipady7nvbqoqreeso4cf82&quot;&gt;source code for it is public&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The key to performing this hack is simply connecting two pins inside the Trezor device at the right time, even paperclip is suitable for this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Only a simple version of this hack requires the disassembly of Trezor. A more advanced version also exists. No disassembly is required!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The author linked a satoshibox file with an exploit for the new firmware (1.5.2) but the link is broken.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-can-you-do&quot;&gt;What can you do?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Turn on password protection&lt;/strong&gt;. Passwords in Trezor create a 25th word of a seedphrase. Trezor claims password protection makes the devices safe against this exploit, it is for researchers now to prove or disprove that.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Keep your Trezor in a vault, don’t have it on you when you cross borders.&lt;/strong&gt; You could have done better with a paper wallet though, or simply with a seedphrase note, couldn’t you?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Build your own cold storage solution.&lt;/strong&gt; Back in the day, people used to use a spare clean computer with Armory or Electrum. &lt;a href=&quot;https://github.com/goatpig/BitcoinArmory/graphs/contributors&quot;&gt;BitcoinArmory is maintained again&lt;/a&gt; but Electrum is the wallet that gets forked to support your altcoin of the month. When you have doubts as to whether to trust a wallet software, like many people had with Bitcoin Cash wallet Electron, you can always install it on a virtual machine.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+",
+   "isPartOf":{
+      "@id":"https://news.altcointrading.net/trezor-hack#webpage"
+   },
+   "image":[
+     "https://news.altcointrading.net/img/bitfinex/gox.png"
+     
+   ],
+   
+   "mentions":[
+      {
+         "@type":"Person",
+         "name":"KarlVonBahnhof",
+         "sameAs":"https://reddit.com/u/KarlVonBahnhof"
+      }
+   ]
 }
 </script>
 <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
@@ -525,11 +611,8 @@ h3.cat-post{background: transparent;color: #403f4e;text-transform: uppercase;fon
     <h2>1 DOGE = 1 DOGE</h2>
     <br>
     <p class="container-center">
-      ATNET<br>
-      Edificio Citicenter 4th Floor<br>
-      Av. Francisco Solano Lopez 3794<br>
-      Asuncion PY-3794<br>
-      Tel: +595 21 620 7326<br>
+      ATNET, Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794<br>
+      Asuncion PY-3794, Tel: +595 21 620 7326, Email: news@altcointrading.net<br>
     </p>
     &#169; 2016-2018 | <a class="footer-internal" title="News AltcoinTrading.NET Contact" href="https://www.altcointrading.net/contact/">Contact Us</a>
   </div>
