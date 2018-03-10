@@ -34,7 +34,7 @@ permalink: pretty
 
 author_details:
   - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: "https://t.co/karlvonbahnhof", email: "chris@altcointrading.net"}
-  - {name: "TradingFanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. Also answering your quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
+  - {name: "TradingFanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
 
 defaults:
  -
@@ -153,7 +153,7 @@ ads:
 ledger_300-250_animated: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
 ledger_728-90_animated: '<div class="containter-center"><a id="gtm-ledger-728-90" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 
-forkit: '<div class="containter-center"><a href="https://forkit.info" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/features/forkit-info.png" alt="Bitcoin Forks Info" data-original-width="516px" data-original-height="474px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
+forkit: '<div class="containter-center"><a href="https://forkit.info" rel="nofollow,noopener" target="_blank"><amp-img itemprop="image" src="/features/forkit-info.png" alt="Bitcoin Forks Info" data-original-width="516px" data-original-height="474px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
 
 
 mailchimp: '<div class="mailchimpfix">
