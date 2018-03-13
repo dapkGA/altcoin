@@ -1,0 +1,192 @@
+title: "News AltcoinTrading.NET"
+subtitle: "Cryptocurrency news and timely news analyses."
+description: "Cryptocurrency news from AltcoinTrading.NET, distilled to a more readable form without the fluff."
+baseurl: ""
+url: "https://news.altcointrading.net"
+timezone: "Etc/GMT"
+
+atneturl: "https://www.altcointrading.net"
+
+plugins: [jekyll-paginate, jekyll-last-modified-at]
+paginate: 10
+
+
+collections:
+  - press
+  - fibs
+
+collections:
+  press:
+    output: true
+    permalink: /:collection/:name
+  fibs:
+    output: true
+    permalink: /:collection/:slug
+
+author: "AltcoinTrading.NET"
+markdown: kramdown
+
+# how the fuck ..
+permalink: /:title/
+post_dirs: false
+permalink: pretty
+# nvm ..
+
+author_details:
+  - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: "https://t.co/karlvonbahnhof", email: "chris@altcointrading.net"}
+  - {name: "TradingFanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
+
+defaults:
+ -
+  scope:
+    path: "" # all
+    type: "posts"
+  values:
+    layout: "forestry"
+    guest: false
+    german: false
+    published: true
+    comments: true
+    stories: false
+    genres: "Opinion" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
+    tickers: false
+    author: "https://reddit.com/u/KarlVonBahnhof"
+    author_name: "KarlVonBahnhof"
+    author_bio: "Whatever"
+
+
+# referral links
+ref:
+  kucoin: '<a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a>&nbsp;'
+  binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>&nbsp;'
+  bitfinex: '<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
+  ledger: '<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a>&nbsp;'
+  trezor: '<a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a>&nbsp;'
+  tradingview: '<a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a>&nbsp;'
+  bitmex: '<a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>&nbsp;'
+  coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>&nbsp;'
+  coinbase: '<a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">Coinbase</a>&nbsp;'
+
+# image ads
+ads:
+  kucoin728: '<div class="text-center" id="gtm-kucoin728-banner">
+  <a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">
+  <amp-img itemprop="image" alt="KuCoin-cryptocurrency exchange"
+  src="/ads/kucoin_728x90.png"
+  layout="responsive"
+  data-original-width="728px" data-original-height="90px"
+  width="728px" height="90px"></amp-img>
+  </a></div><br>'
+  iqcrypto728: '<div class="text-center" id="gtm-iqcrypto728-banner">
+  <a rel="nofollow" target="_blank" href="https://iqoption.com/land/crypto/en/eth.html?aff=88342&afftrack=atnet">
+  <amp-img itemprop="image" alt="IQOption-Buy Ethereum"
+  src="/ads/iqoption_728x90.gif"
+  layout="responsive"
+  data-original-width="728px" data-original-height="90px"
+  width="728px" height="90px"></amp-img>
+  </a></div><br>'
+  binance728: '<div class="text-center" id="gtm-binance-banner">
+  <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">
+  <amp-img itemprop="image" alt="Binance-cryptocurrency exchange"
+  src="/ads/binance-exchange-728x90.jpg"
+  layout="responsive"
+  data-original-width="728px" data-original-height="90px"
+  width="728px" height="90px"></amp-img>
+  </a></div><br>'
+  ledger: '<div class="text-center">
+  <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
+  <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
+  src="https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg"
+  layout="responsive"
+  data-original-width="468px" data-original-height="90px"
+  width="468px" height="90px"></amp-img>
+  </a></div>'
+  ledger-thin: '<div class="text-center">
+  <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
+  <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
+  src="/img/wallets/ledger-hero.png"
+  layout="responsive"
+  data-original-width="710px" data-original-height="60px"
+  width="710px" height="60px"></amp-img>
+  </a></div><br>'
+  trezor: '<div class="clearfix">
+  <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
+  <amp-img itemprop="image"
+  src="/img/wallets/trezor.jpg"
+  alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px"
+  data-original-height="90px" layout="responsive" width="728px" height="90px">
+  </amp-img></a></div>'
+  trezorbox: '<div class="text-center">
+  <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
+  <amp-img itemprop="image"
+  src="/img/wallets/trezor-altcoins.jpg"
+  alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="350px"
+  data-original-height="320px" layout="responsive" width="350px" height="320px">
+  </amp-img></a></div>'
+  trezorlong: '<div class="text-center">
+  <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
+  <amp-img itemprop="image"
+  src="/img/wallets/trezor-altcoins-long.jpg"
+  alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px"
+  data-original-height="90px" layout="responsive" width="728px" height="90px">
+  </amp-img></a></div>'
+  pm1: '<div class="text-center"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697">
+  <amp-img itemprop="image" alt="Perfect Money" src="/img/ads/pm1.jpg"
+  data-original-width="468px" data-original-height="20px" layout="responsive" width="468px" height="20px">
+  </amp-img></a></div>'
+  pm2: '<div class="clearfix"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697">
+  <amp-img itemprop="image" alt="Perfect Money" src="/img/ads/pm2.jpg"
+  data-original-width="468px" data-original-height="20px" layout="responsive" width="468px" height="20px"></amp-img>
+  </a></div>'
+  acash: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash.png" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
+  acashgreen: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash_green.jpeg" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
+  feeds: '<a class="button" target="_blank" href="http://feeds.specificfeeds.com/altcointrading">YES, ALERT ME ON NEWS</a>'
+  aads728: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
+    layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+    src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+     placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
+  sidebar: '<div class="clearfix adfix"><amp-iframe width="336px" height="280px"
+    layout="responsive" data-aa="147074" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+    src="https://ad.a-ads.com/147074?size=336x280"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+     placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
+
+ledger_300-250_animated: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
+ledger_728-90_animated: '<div class="containter-center"><a id="gtm-ledger-728-90" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+
+forkit: '<div class="containter-center"><a href="https://forkit.info" rel="nofollow,noopener" target="_blank"><amp-img itemprop="image" src="/features/forkit-info.png" alt="Bitcoin Forks Info" data-original-width="516px" data-original-height="474px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
+
+
+mailchimp: '<div class="mailchimpfix">
+<amp-iframe width="400px" height="300px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+src="https://amp2disqus.netlify.com/altcointrading/signup.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+</div>'
+mailchimp_thin: '<div class="mailchimpfix">
+<amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+</div>'
+
+# /uploads/tv1.html
+tv_728-90_animated: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
+  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+   placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
+tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height="275px"
+  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://amp2disqus.netlify.com/altcointrading/tv2.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+   placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
+
+bf1: '<div class="text-center">
+<a class="index-internal" target="_blank" href="/blackfriday/">
+<amp-img itemprop="image"
+src="/cta/ledger-blackfriday-2017.png"
+alt="Black Friday deals 2017 for crypto traders"
+data-original-width="819px"
+data-original-height="310px"
+width="730px" height="275px"
+layout="responsive">
+</amp-img></a></div><br>'
+
+affop:
+  # UK, ZA, AU, CA, FI, DE, SK, NL
+  system: '<div class="text-center" id="nous"><a rel="nofollow" target="_blank" href="http://affiliatepartnersltd.go2cloud.org/aff_c?offer_id=59&aff_id=1433&url_id=447"><amp-img itemprop="image" src="/ads/cryptosystem.png"
+  alt="Learn to trade cryptocurrencies" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'

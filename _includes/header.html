@@ -1,0 +1,72 @@
+<div class="container header-wrap">
+  <div class="row">
+
+    <div class="twelve columns stripe">
+
+      <div class="four columns pull-left" id="performancebox">
+        <amp-iframe
+          width=320 height=235px
+          layout="responsive"
+          sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+          src="https://data.altcointrading.net/compare/header.html">
+          <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+        </amp-iframe>
+      </div>
+
+      <div class="four columns">
+        <div class="logo">
+          <amp-img itemprop="image" alt="{{ site.title }}"
+          src="{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
+          layout="responsive"
+          data-original-width="75px" data-original-height="90px"
+          width="75px" height="90px"></amp-img>
+        </div>
+        <div class="textlogo">
+          <div class="hl"><a href="/">{{ site.title }}</a></div>
+          <small><em>{{ site.subtitle }} Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>.</em></small>
+        </div>
+      </div>
+
+
+      <div class="four columns pull-right" id="altindexbox">
+          <amp-iframe
+            width=300 height=90
+            layout="fixed"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://data.altcointrading.net/embed/index.html">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
+      </div>
+    </div>
+
+    <div class="tooltip" id="togglemenu">
+      <input type="checkbox" value="selected" id="mobile-menu-1" class="tooltip-input">
+      <label for="mobile-menu-1" class="tooltip-label-menu">
+        <i class="fa fa-bars fa-2" aria-hidden="true"></i>&nbsp;MENU
+      </label>
+      <div role="tooltip" id="togglemenuID" class="tooltip-content">
+
+        <!-- mobile nav START -->
+        <nav class="main">
+          <div class="twelve columns">
+            <ul class="navi mobile-only">
+              {% include menu.html %}
+            </ul>
+          </div>
+        </nav>
+
+     </div> <!--/.tooltip-content-->
+    </div><!--/.tooltip-->
+  </div>
+
+  <!-- ====DESKTOP===== MENU START -->
+  <nav class="main" id="desktopmenu">
+    <div class="twelve columns desktop-only">
+      <ul class="navi">
+        {% include menu.html %}
+      </ul>
+    </div>
+  </nav>
+  <!-- nav END -->
+
+</div>

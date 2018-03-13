@@ -1,0 +1,34 @@
+---
+navi:
+ exclude: yes
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  {% for post in site.posts %}
+  {% if post.stories %}
+
+    <url>
+      <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+      <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
+
+      <news:news>
+        <news:publication>
+          <news:name>{{ site.title }}</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>{{ post.genres }}</news:genres>
+        <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+        <news:title>{{ post.title }}</news:title>
+        <news:keywords>altcoin trading, cryptocurrency, ethereum, bitcoin, erc20</news:keywords>
+        {% if post.tickers %}<news:stock_tickers>CURRENCY:BTC, OTCMKTS:GBTC</news:stock_tickers>{% endif %}
+      </news:news>
+    </url>
+
+    {% endif %}
+  {% endfor %}
+
+</urlset>

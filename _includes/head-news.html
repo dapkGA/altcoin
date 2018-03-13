@@ -1,0 +1,154 @@
+<head>
+<meta charset="utf-8">
+{% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
+
+<!-- required by amp -->
+<link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+<!-- canonical to main page -->
+<link rel="canonical" href="https://www.altcointrading.net{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+<link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+<meta name="keywords" content="altcoin trading news, cryptocurrency trading news, cryptocurrency analyses, altcoin trader news">
+<meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<!-- robots  -->
+<meta name="robots" content="noodp,noydir" />
+<!-- opengraph -->
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{% if page.title %}News AltcoinTrading.NET - {{ page.title | markdownify | strip_html | trim | strip_newlines }}{% else %}{{ site.title | strip_html | strip_newlines  }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}" />
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+<meta property="og:site_name" content="{{ site.title | markdownify | strip_html | trim | strip_newlines }}" />
+<meta property="og:updated_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
+<meta property="og:image" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}/editorial/fork.jpg{% endif %}" />
+<meta property="og:image:secure_url" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{site.url}}{{site.baseurl}}/editorial/fork.jpg{% endif %}" />
+<meta property="og:image:width" content="700" />
+<meta property="og:image:height" content="360" />
+<!-- article -->
+<meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
+<meta property="article:author" content="{% if page.author %}{{ page.author }}{% else %}https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/{% endif %}" />
+{% if page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />{% endif %}
+<meta property="article:modified_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
+<!-- post tags -->
+{% if page.tags[0] %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}" />{% endfor %}{% endif %}
+<!-- post categories -->
+{% if page.categories[0] %}{% for cat in page.categories %}{% if cat contains "trading" %}<meta property="article:section" content="Cryptocurrency Trading" />{% elsif cat contains "basics" %}<meta property="article:section" content="Cryptocurrency Trading 101" />{% elsif cat contains "coins" %}<meta property="article:section" content="New Cryptocurrencies" />{% elsif cat contains "exchanges" %}<meta property="article:section" content="Cryptocurrency Exchanges" />{% elsif cat contains "wallets" %}<meta property="article:section" content="Cryptocurrency Wallets" />{% else %}<meta property="article:section" content="Cryptocurrencies" />{% endif %}{% endfor %}{% endif %}
+
+<!-- twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@altcointrading_" />
+<meta name="twitter:title" content="News AltcoinTrading.NET - {{ page.title | markdownify | strip_html | trim | strip_newlines }}" />
+<meta name="twitter:description" content="{{ page.description | markdownify | strip_html | trim | strip_newlines }}" />
+<meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
+<meta property="twitter:image:secure_url" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
+<meta name="twitter:creator" content="{% if page.author_twitter %}{{ page.author_twitter }}{% elsif page.author %}{{ page.author }}{% else %}@altcointrading_{% endif %}" />
+
+
+<!--AMP-->
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-analytics"
+    src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<script type="application/ld+json">
+{
+ "@context":"http:\/\/schema.org",
+ "@type":"Organization",
+ "url":"{{ site.url | xml_escape }}",
+ "sameAs":[
+   "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
+       "https:\/\/www.facebook.com\/groups\/332750657242745\/",
+       "https:\/\/twitter.com\/altcointrading_",
+       "https:\/\/medium.com\/cryptolounge",
+       "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
+       "https:\/\/www.investfeed.com\/atnet\/overview",
+       "https:\/\/reddit.com\/r\/altcointrader",
+       "https:\/\/t.me\/altcointrading_net"
+ ],
+ "@id":"#organization",
+ "name":"AltcoinTrading.NET",
+ "logo":{
+    "@type":"ImageObject",
+    "url":"https://i.imgur.com/YiUXPdY.jpg",
+    "width":350,
+    "height":60
+ },
+ "telephone":"+595 21 620 7326",
+ "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794",
+    "addressLocality":"Asuncion",
+    "addressCountry":"PY",
+    "postalCode":"3794"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+   "@context":"http:\/\/schema.org",
+   "@type":"Article",
+   "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#article",
+   "mainEntityOfPage":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}",
+   "publisher":{
+      "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#organization"
+   },
+   "headline":"{{ page.title | xml_escape }}",
+   "datePublished": "{{ page.date | date_to_xmlschema }}",
+   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "author":[
+      {
+         "@type":"Person",
+         "name":"{{ page.author_name }}"
+      }
+   ],
+   "description":"{{ page.description | xml_escape }}",
+   "articleBody":"{{ page.content | xml_escape }}",
+   "isPartOf":{
+      "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#webpage"
+   },
+   "image":[
+     {% for item in page.image %}"{{ item | prepend: site.baseurl | prepend: site.url | xml_escape }}"{% if forloop.last == false %},{% endif %}
+     {% endfor %}
+   ],
+   {% if page.about %}
+   "about": {
+     "@type": "Thing",
+     "name": "{{ page.about.name }}",
+     "sameAs": [
+       {% for item in page.about.sameas %}"{{ item }}"{% if forloop.last == false %},{% endif %}
+       {% endfor %}]
+   },
+   {% endif %}
+   "mentions":[
+      {
+         "@type":"Person",
+         "name":"{{ page.author_name }}",
+         "sameAs":"{{ page.author | xml_escape }}"
+      }
+   ]
+}
+</script>
+<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+<script async custom-element="amp-dailymotion" src="https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js"></script>
+
+<!-- AMP allowed resources -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One' rel='stylesheet'>
+
+
+<!-- custom resources -->
+<style amp-custom>
+  {% include css/normalize.min.css %}
+  {% include css/skeleton.min.css %}
+  {% include css/custom.css %}
+  {% include css/news.css %}
+</style>
+</head>
