@@ -1,0 +1,46 @@
+---
+published: true
+layout: page
+title: "Press Releases | News AltcoinTrading.NET"
+description: "All industry press releases issued via News AltcoinTrading.NET"
+permalink: /press-releases/
+category: "press"
+---
+
+To publish a press release through {{ site.title }} please use [this Typeform](https://jmt3.typeform.com/to/eXvdSo).
+
+<div class="row" id="atnet-press-all">
+  {% for post in site.press  %}
+
+  <div class="row cat-updates">
+  {% if post.image[0] %}
+  <div class="three columns">
+    <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  {% endif %}
+    <div class="nine columns">
+      <h5 class="category-post post">
+        <strong>
+          {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
+          {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
+          {% endif %}
+          <small>&nbsp;<u>UPDATE</u> {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC</small>
+          <small>&nbsp;PUBLISHED {{ post.date | date: "%d %b %Y" }}</small>
+          {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+          <br>
+          <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </strong>
+      </h5>
+    </div>
+  </div>
+
+  {% endfor %}
+</div>

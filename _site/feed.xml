@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News AltcoinTrading.NET - All Posts</title>
-    <description>Timely news from AltcoinTrading.NET, distilled to a more readable form without the fluff.</description>
+    <description>Cryptocurrency news from AltcoinTrading.NET, distilled to a more readable form without the fluff.</description>
     <link>https://news.altcointrading.net/</link>
     <image>
       <url>https://news.altcointrading.net/img/logo.jpg</url>
@@ -10,8 +10,8 @@
       <link>https://news.altcointrading.net/</link>
     </image>
     <atom:link href="https://news.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Mar 2018 17:42:38 +0000</pubDate>
-    <lastBuildDate>Sat, 10 Mar 2018 17:42:38 +0000</lastBuildDate>
+    <pubDate>Tue, 13 Mar 2018 18:45:24 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Mar 2018 18:45:24 +0000</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>

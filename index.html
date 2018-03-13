@@ -7,16 +7,50 @@ navi:
   <div class="row">
    <div class="eight columns offset-by-two">
 
+     <section id="atnet-press-block">
 
+       {% if site.press[0] %}
+      <span class="note">Industry Press Releases // <a href="/press-releases/"><u>Read All</u></a></span>
+      <div class="row" id="atnet-press">
+        {% for post in site.press offset: 0 limit: 3 %}
+        <div class="columns four">
+            <strong>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </strong>
+          <br>
+          {{ post.date | date_to_string }}
+          <br>
+            {% if post.image[0] %}
+            <a  class="index-internal" href="{{ post.url }}" title="{{ post.title }}">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="{{ post.image[0] }}" alt="{{ post.title }} - News AltcoinTrading.NET"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+            {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </section><!-- // end press block -->
+
+    <div class="clearfix"></div>
+
+    <!-- SLOT 1  -->
+    <br>
+    {{ site.ledger_728-90_animated }}
+    <br>
 
     <section id="new-posts">
 
       <span class="note">Latest News from AltcoinTrading.net</span>
 
 
-      <!-- SLOT 1  -->
-      {{ site.ledger_728-90_animated }}
-      <br>
+
 
 
 

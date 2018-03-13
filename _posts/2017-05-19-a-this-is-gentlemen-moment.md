@@ -12,7 +12,7 @@ title: "A \"This Is Gentlemen\" Moment"
 date: 2017-05-19 02:19
 image:
 - "/uploads/2017/05/19/thisisgentlemen.png"
-permalink: "/all-green"
+permalink: "all-green/"
 description: A rare moment of all crypto in the green that must be noted, plus some
   more substantial posts from Reddit.
 categories:

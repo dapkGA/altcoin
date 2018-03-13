@@ -2,6 +2,10 @@
 <meta charset="utf-8">
 {% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
 
+<!-- required by amp -->
+<link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
 <!-- canonical to main page -->
 <link rel="canonical" href="https://www.altcointrading.net{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 
@@ -38,11 +42,12 @@
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@altcointrading_" />
 <meta name="twitter:title" content="News AltcoinTrading.NET - {{ page.title | markdownify | strip_html | trim | strip_newlines }}" />
 <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | trim | strip_newlines }}" />
 <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
 <meta property="twitter:image:secure_url" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
-<meta name="twitter:creator" content="{% if page.author_twitter %}{{ page.author_twitter }}{% elsif page.author %}{{ page.author }}{% else %}@tradingfanbois{% endif %}" />
+<meta name="twitter:creator" content="{% if page.author_twitter %}{{ page.author_twitter }}{% elsif page.author %}{{ page.author }}{% else %}@altcointrading_{% endif %}" />
 
 
 <!--AMP-->
@@ -58,13 +63,14 @@
  "@type":"Organization",
  "url":"{{ site.url | xml_escape }}",
  "sameAs":[
-    "https:\/\/t.me\/altcointrading_net",
-    "https:\/\/reddit.com\/r\/altcointrader",
-    "https:\/\/www.facebook.com\/groups\/332750657242745\/",
-    "https:\/\/twitter.com\/altcointrading_",
-    "https:\/\/medium.com\/cryptolounge",
-    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
-    "https:\/\/www.investfeed.com\/atnet\/overview"
+   "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
+       "https:\/\/www.facebook.com\/groups\/332750657242745\/",
+       "https:\/\/twitter.com\/altcointrading_",
+       "https:\/\/medium.com\/cryptolounge",
+       "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
+       "https:\/\/www.investfeed.com\/atnet\/overview",
+       "https:\/\/reddit.com\/r\/altcointrader",
+       "https:\/\/t.me\/altcointrading_net"
  ],
  "@id":"#organization",
  "name":"AltcoinTrading.NET",
@@ -134,7 +140,7 @@
 <script async custom-element="amp-dailymotion" src="https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js"></script>
 
 <!-- AMP allowed resources -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One' rel='stylesheet'>
 
 

@@ -12,7 +12,7 @@ title: How the legacy finance might be feeling about cryptocurrencies
 date: 2017-05-20 09:11
 update: '2017-05-20T13:14:43.844Z'
 description: 'This comes from a mainstream finance & investing newsletter. '
-permalink: "/diversification-craze"
+permalink: "diversification-craze/"
 image:
 - "/uploads/2017/05/20/eth-mainstream.png"
 image_alt:
@@ -23,7 +23,7 @@ categories:
 - altcoins
 tags: []
 ---
-{{ site.mailchimp }} Most of the people who have invested in cryptocurrencies in the past years were not professional investors. And a big chunk of those who went into altcoin trading might not have been rich before they hodl'd Ethereum since it was $9 -- or something like that. 
+{{ site.mailchimp }} Most of the people who have invested in cryptocurrencies in the past years were not professional investors. And a big chunk of those who went into altcoin trading might not have been rich before they hodl'd Ethereum since it was $9 -- or something like that.
 
 Back in the day when Ethereum didn't exist yet there were running jokes in Bitcoin forums about one day getting as rich as to be able to bribe senators. Well, these days nobody jokes about things like that anymore. By now the people from two three years back are probably just getting closer to where the target audience of [Mauldin Economics](http://www.mauldineconomics.com/) is: people who have earned some, yet aren't the ones who move the ocean.
 

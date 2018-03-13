@@ -13,3 +13,8 @@
     text-align: center;
     margin: 0 auto;
 }
+#atnet-press > div {
+  border-left: 5px solid #03203f;
+  padding: 10px;
+  padding-top:0;
+}
