@@ -6,9 +6,6 @@
 <link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-<!-- canonical to main page -->
-<link rel="canonical" href="https://www.altcointrading.net{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
-
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title | capitalize }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">

@@ -1,13 +1,10 @@
 <head>
 <meta charset="utf-8">
-{% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
 
 <!-- required by amp -->
 <link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-<!-- canonical to main page -->
-<link rel="canonical" href="https://www.altcointrading.net{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+<!-- canonical to main page cannot be here because fcking amp -->
 
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
