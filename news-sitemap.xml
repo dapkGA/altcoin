@@ -14,7 +14,6 @@ navi:
     <url>
       <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
       <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
-
       <news:news>
         <news:publication>
           <news:name>{{ site.title }}</news:name>
@@ -23,7 +22,7 @@ navi:
         <news:genres>{{ post.genres }}</news:genres>
         <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
         <news:title>{{ post.title }}</news:title>
-        <news:keywords>altcoin trading, cryptocurrency, ethereum, bitcoin, erc20</news:keywords>
+        <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
         {% if post.tickers %}<news:stock_tickers>CURRENCY:BTC, OTCMKTS:GBTC</news:stock_tickers>{% endif %}
       </news:news>
     </url>
