@@ -18,3 +18,19 @@
   padding: 10px;
   padding-top:0;
 }
+
+.textlogo > h1 {
+    color: #010b18;
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin-bottom: 0;
+}
+.textlogo > h2 {
+    color: #010b18;
+    font-weight: 800;
+    font-size: 3.4rem;
+}
+.textlogo a {
+text-decoration: none;
+color: #010b18;
+}
