@@ -4,7 +4,7 @@ german: false
 published: true
 comments: false
 stories: true
-genres: News
+genres: Blog
 tickers: true
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof

@@ -654,7 +654,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>News</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-07-19T16:47:00+00:00</news:publication_date>
         <news:title>ETH multisig hack</news:title>
         <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
@@ -694,7 +694,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>News</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-06-27T00:09:00+00:00</news:publication_date>
         <news:title>Trezor might be getting Monero, too</news:title>
         <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
@@ -794,7 +794,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>News</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-06-11T21:39:00+00:00</news:publication_date>
         <news:title>Important - Jaxx Vulnerability</news:title>
         <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
@@ -814,7 +814,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>News</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-06-04T17:07:00+00:00</news:publication_date>
         <news:title>Bitfinex is adding IOTA trading</news:title>
         <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
@@ -954,7 +954,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>News</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-05-18T03:41:00+00:00</news:publication_date>
         <news:title>Monero mining malware</news:title>
         <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
