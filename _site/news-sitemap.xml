@@ -4,6 +4,23 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
   
+    <url>
+      <loc>https://news.altcointrading.net/press/cryptoloans/</loc>
+      <lastmod>2018-03-19T01:23:36+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>PressRelease</news:genres>
+        <news:publication_date></news:publication_date>
+        <news:title></news:title>
+        <news:keywords>cryptocurrency, ethereum, bitcoin, erc20</news:keywords>
+      </news:news>
+    </url>
+  
+
+  
   
 
     <url>
@@ -648,7 +665,7 @@
 
     <url>
       <loc>https://news.altcointrading.net/eth-multisig-hack/</loc>
-      <lastmod>2018-03-13T19:21:06+00:00</lastmod>
+      <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -688,7 +705,7 @@
 
     <url>
       <loc>https://news.altcointrading.net/trezor-monero/</loc>
-      <lastmod>2018-03-13T19:21:06+00:00</lastmod>
+      <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -788,7 +805,7 @@
 
     <url>
       <loc>https://news.altcointrading.net/jaxx-vulnerability/</loc>
-      <lastmod>2018-03-13T19:21:06+00:00</lastmod>
+      <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -808,7 +825,7 @@
 
     <url>
       <loc>https://news.altcointrading.net/iota/</loc>
-      <lastmod>2018-03-13T19:21:06+00:00</lastmod>
+      <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -948,7 +965,7 @@
 
     <url>
       <loc>https://news.altcointrading.net/monero-mining-malware/</loc>
-      <lastmod>2018-03-13T19:21:06+00:00</lastmod>
+      <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>

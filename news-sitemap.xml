@@ -8,6 +8,23 @@ navi:
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
+  {% for page in site.press %}{% unless page.navi.exclude == true %}
+    <url>
+      <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+      <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>{{ site.title }}</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>PressRelease</news:genres>
+        <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+        <news:title>{{ post.title }}</news:title>
+        <news:keywords>cryptocurrency, ethereum, bitcoin, erc20</news:keywords>
+      </news:news>
+    </url>
+  {% endunless %}{% endfor %}
+
   {% for post in site.posts %}
   {% if post.stories %}
 
