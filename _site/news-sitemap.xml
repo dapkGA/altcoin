@@ -987,6 +987,26 @@
   
 
     <url>
+      <loc>https://news.altcointrading.net/ico-regulations/</loc>
+      <lastmod>2018-03-19T01:19:17+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-05-09T14:46:00+00:00</news:publication_date>
+        <news:title>Is the end of ICOs approaching?</news:title>
+        <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
+        <news:stock_tickers>CURRENCY:BTC, OTCMKTS:GBTC</news:stock_tickers>
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>https://news.altcointrading.net/etc-etf/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>

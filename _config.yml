@@ -18,10 +18,10 @@ collections:
 collections:
   press:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:slug/
   fibs:
     output: true
-    permalink: /:collection/:slug
+    permalink: /markets/:slug/
 
 author: "AltcoinTrading.NET"
 markdown: kramdown
