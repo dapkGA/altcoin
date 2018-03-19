@@ -18,9 +18,9 @@ navi:
           <news:language>en</news:language>
         </news:publication>
         <news:genres>PressRelease</news:genres>
-        <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
-        <news:title>{{ post.title }}</news:title>
-        <news:keywords>cryptocurrency, ethereum, bitcoin, erc20</news:keywords>
+        <news:publication_date>{{ page.date | date_to_xmlschema }}</news:publication_date>
+        <news:title>{{ page.title }}</news:title>
+        <news:keywords>{% assign isFirst = true %}{% for tag in page.tags %}{% if isFirst != true %},{% endif %}{% assign isFirst = false %}{{ tag | xml_escape }}{% endfor %}</news:keywords>
       </news:news>
     </url>
   {% endunless %}{% endfor %}
@@ -39,7 +39,7 @@ navi:
         <news:genres>{{ post.genres }}</news:genres>
         <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
         <news:title>{{ post.title }}</news:title>
-        <news:keywords>altcoin trading, cryptocurrency market news, ethereum, bitcoin, erc20</news:keywords>
+        <news:keywords>{% assign isFirst = true %}{% for tag in post.tags %}{% if isFirst != true %},{% endif %}{% assign isFirst = false %}{{ tag | xml_escape }}{% endfor %}</news:keywords>
         {% if post.tickers %}<news:stock_tickers>CURRENCY:BTC, OTCMKTS:GBTC</news:stock_tickers>{% endif %}
       </news:news>
     </url>
