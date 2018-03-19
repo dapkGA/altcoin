@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://news.altcointrading.net/sitemap_pages.xml</loc>
+    <loc>https://news.altcointrading.net/sitemap-pages.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://news.altcointrading.net/sitemap_posts.xml</loc>
+    <loc>https://news.altcointrading.net/sitemap-posts.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://news.altcointrading.net/sitemap_strategy.xml</loc>
+    <loc>https://news.altcointrading.net/sitemap-strategy.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://news.altcointrading.net/sitemap_security.xml</loc>
+    <loc>https://news.altcointrading.net/sitemap-security.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://news.altcointrading.net/sitemap_pressreleases.xml</loc>
+    <loc>https://news.altcointrading.net/sitemap-pressreleases.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://news.altcointrading.net/sitemap_markets.xml</loc>
+    <loc>https://news.altcointrading.net/sitemap-markets.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://news.altcointrading.net/sitemap_airdrops.xml</loc>
+    <loc>https://news.altcointrading.net/sitemap-airdrops.xml</loc>
   </sitemap>
 </sitemapindex>
