@@ -24,6 +24,26 @@
   
 
     <url>
+      <loc>https://news.altcointrading.net/dex-trading/</loc>
+      <lastmod>2018-03-24T02:27:38+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-03-23T15:35:00+00:00</news:publication_date>
+        <news:title>DEX Series, Episode 1: Trade Execution Management</news:title>
+        <news:keywords>leverj,leverj-io,altcoin-io,0x,ddex,dex,decentralized-exchange,non-custodial-trading,crypto-trading</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>https://news.altcointrading.net/regulations-decentralized-exchanges/</loc>
       <lastmod>2018-03-10T17:43:20+00:00</lastmod>
       <news:news>

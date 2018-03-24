@@ -10,9 +10,45 @@
       <link>https://news.altcointrading.net/</link>
     </image>
     <atom:link href="https://news.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Mar 2018 20:36:04 +0000</pubDate>
-    <lastBuildDate>Mon, 19 Mar 2018 20:36:04 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Mar 2018 02:27:44 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Mar 2018 02:27:44 +0000</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>DEX Series, Episode 1: Trade Execution Management</title>
+        <description>On non-custodial trade execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for algo trading.</description>
+
+        <author>tradingfanbois@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Fri, 23 Mar 2018 15:35:00 +0000</pubDate>
+        <link>https://news.altcointrading.net/dex-trading/</link>
+        <guid isPermaLink="true">https://news.altcointrading.net/dex-trading/</guid>
+        
+        <category>leverj</category>
+        
+        <category>leverj-io</category>
+        
+        <category>altcoin-io</category>
+        
+        <category>0x</category>
+        
+        <category>ddex</category>
+        
+        <category>dex</category>
+        
+        <category>decentralized-exchange</category>
+        
+        <category>non-custodial-trading</category>
+        
+        <category>crypto-trading</category>
+        
+        
+        <category>dex</category>
+        
+        <category>exchanges</category>
+        
+      </item>
     
       <item>
         <title>In the light of regulations: How about non-custodial derivative trading?</title>
@@ -275,30 +311,6 @@
         
         
         <category>exchanges</category>
-        
-      </item>
-    
-      <item>
-        <title>How is it with arbitrage opportunities in South Korea </title>
-        <description>To summarize what is known as everyone seems to be interested in that at the moment.</description>
-
-        <author>tradingfanbois@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Thu, 28 Dec 2017 22:56:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/south-korea-arbitrage/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/south-korea-arbitrage/</guid>
-        
-        <category>south-korea</category>
-        
-        <category>btckrw</category>
-        
-        <category>cryptocurrency-exchange</category>
-        
-        <category>arbitrage</category>
-        
-        
-        <category>trading</category>
         
       </item>
     
