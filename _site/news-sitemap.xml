@@ -19,13 +19,28 @@
       </news:news>
     </url>
   
+    <url>
+      <loc>https://news.altcointrading.net/press/coins4favors/</loc>
+      <lastmod>2018-03-30T08:16:47+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>PressRelease</news:genres>
+        <news:publication_date>2018-03-30T04:35:00+00:00</news:publication_date>
+        <news:title>Coins4Favors ICO and Bounty Announcement</news:title>
+        <news:keywords>Coins4Favors,gig-economy,erc20,ico,bounty</news:keywords>
+      </news:news>
+    </url>
+  
 
   
   
 
     <url>
       <loc>https://news.altcointrading.net/dex-trading/</loc>
-      <lastmod>2018-03-24T02:27:38+00:00</lastmod>
+      <lastmod>2018-03-24T02:30:07+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
