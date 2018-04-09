@@ -61,7 +61,7 @@ navi:
         {% else %}
           <span class="prev"><< Previous</span>
         {% endif %}
-        <span class="page_number ">All Articles - Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
         {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path }}" class="next">Next >></a>
         {% else %}
@@ -80,11 +80,7 @@ navi:
                 {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
                 {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
                 {% endif %}
-                <small>{{ post.date | date: "%d %b %Y, %R" }} UTC</small>
-
-                {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>
-                {% elsif post.author %}<small class="author">&nbsp;&middot;&nbsp;By {{ post.author_name }}</small>
-                {% endif %}
+                <small>{{ post.date | date: "%d %b %Y, %R" }} UTC, by {{ post.author_name }}</small>
                 <br>
                 <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
               </strong>

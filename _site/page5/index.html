@@ -5,13 +5,13 @@
 <meta name="Googlebot-News" content="noindex, nofollow">
 
 <!-- required by amp -->
-<link rel="amphtml" href="https://news.altcointrading.net/page5/">
-<link rel="canonical" href="https://news.altcointrading.net/page5/">
+<link rel="amphtml" href="http://localhost:4000/page5/">
+<link rel="canonical" href="http://localhost:4000/page5/">
 
 <meta charset="utf-8">
 <title>News AltcoinTrading.NET</title>
-<link rel="icon" type="image/x-icon" href="https://news.altcointrading.net/img/favicon.ico">
-<meta name="description" content="Cryptocurrency news from AltcoinTrading.NET, distilled to a more readable form without the fluff.">
+<link rel="icon" type="image/x-icon" href="http://localhost:4000/img/favicon.ico">
+<meta name="description" content="Your independent portal on news analyses regarding crypto. Same content as on AltcoinTrading.NET but distilled to a more readable form without ads.">
 <meta name="keywords" content="altcoin trading news, crypto trading news, cryptocurrency analysis, cryptocurrency exchange news">
 <meta name="author" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -23,21 +23,23 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="News AltcoinTrading.NET" />
-<meta property="og:description" content="Cryptocurrency news from AltcoinTrading.NET, distilled to a more readable form without the fluff." />
-<meta property="og:url" content="https://news.altcointrading.net/page5/" />
+<meta property="og:description" content="Your independent portal on news analyses regarding crypto. Same content as on AltcoinTrading.NET but distilled to a more readable form without ads." />
+<meta property="og:url" content="http://localhost:4000/page5/" />
 <meta property="og:site_name" content="News AltcoinTrading.NET" />
-<meta property="og:updated_time" content="2018-03-30T08:16:52+00:00" />
-<meta property="og:image" content="https://news.altcointrading.net/editorial/fork.jpg" />
-<meta property="og:image:secure_url" content="https://news.altcointrading.net/editorial/fork.jpg" />
+<meta property="og:updated_time" content="2018-04-09T22:06:28+00:00" />
+<meta property="og:image" content="http://localhost:4000/editorial/fork.jpg" />
+<meta property="og:image:secure_url" content="http://localhost:4000/editorial/fork.jpg" />
 <meta property="og:image:width" content="700" />
 <meta property="og:image:height" content="360" />
 
 <!--AMP-->
+<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <!--<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>-->
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-<script async custom-element="amp-analytics"
-    src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 <script type="application/ld+json">
@@ -46,7 +48,7 @@
   
   "@type": "WebSite",
   "@id":"#website",
-  "url":"https://news.altcointrading.net",
+  "url":"http://localhost:4000",
   
   "name": "AltcoinTrading.NET",
   "author": {
@@ -70,7 +72,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://news.altcointrading.net/img/emotions/whales.jpg",
+    "url": "http://localhost:4000/img/emotions/whales.jpg",
     "height": 700,
     "width": 360
   },
@@ -171,6 +173,89 @@ text-decoration: none;
 color: #010b18;
 }
 
+  .tooltip-label-menu {
+  display: none;
+}
+@media (max-width: 667px){
+
+  figure.border {
+    border: none;
+  }
+  .textlogo {text-align:center;}
+  .dogeshare-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #f2f2f2f2;
+    width: 100%;
+    text-align: left;
+    padding: 25px;
+    box-sizing: border-box;
+    z-index: 99;
+  }
+  .dogeshare-second {display: none}
+  .logo {
+    width: 42px;
+  }
+  #altindexbox, #performancebox {display: none}
+  .tooltip-label-menu {
+    font-size: 2em;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    margin-bottom: 2em;
+    color: #000b17;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  amp-sidebar {
+    max-width: 50vw!important;
+    background-color: #010b18;
+    color: white;
+  }
+  .close-sidebar {
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  amp-sidebar a, amp-sidebar a:hover {
+    color: #6e8ba9d1
+  }
+
+  .pagination>.prev {width: 27%;}
+
+  h5.post {
+    padding: 0;
+    background: transparent;
+    color: black;
+    left: 0;
+    border-left: 0;
+  }
+  h5.post small {
+    font-size: 57%;
+    position: relative;
+    top: -4px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .home-latest-excerpt{display: none}
+  .row.home-latest .seven.columns {
+    width: 100%;
+  }
+  .row.home-latest {
+    border-top: 5px solid #03203f;
+    border-bottom: none;
+  }
+  .row.home-latest, .row.home-top-new {
+    margin-bottom: 0;
+  }
+  h4.post-main {background: transparent}
+  span#note, span.note {margin-bottom:0}
+}
+
+
 </style>
 </head>
 
@@ -196,15 +281,16 @@ color: #010b18;
       <div class="four columns">
         <div class="logo">
           <a href="/"><amp-img itemprop="image" alt="News AltcoinTrading.NET"
-          src="https://news.altcointrading.net/img/logo.jpg"
+          src="http://localhost:4000/img/logo.jpg"
           layout="responsive"
           data-original-width="75px" data-original-height="90px"
           width="75px" height="90px"></amp-img></a>
         </div>
         <div class="textlogo">
+          <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="tooltip-label-menu"><i class="fa fa-bars fa-2" aria-hidden="true"></i></div>
           <h1><a href="/">News.AltcoinTrading.NET</a></h1>
           <h2><a href="/">News & Analyses</a></h2>
-          <small><em>Cryptocurrency news and timely news analyses. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>.</em></small>
+          <small><em>Independent crypto news analyses. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>.</em></small>
         </div>
       </div>
 
@@ -219,58 +305,48 @@ color: #010b18;
           </amp-iframe>
       </div>
     </div>
+  </div>
 
-    <div class="tooltip" id="togglemenu">
-      <input type="checkbox" value="selected" id="mobile-menu-1" class="tooltip-input">
-      <label for="mobile-menu-1" class="tooltip-label-menu">
-        <i class="fa fa-bars fa-2" aria-hidden="true"></i>&nbsp;MENU
-      </label>
-      <div role="tooltip" id="togglemenuID" class="tooltip-content">
-
-        <!-- mobile nav START -->
-        <nav class="main">
-          <div class="twelve columns">
-            <ul class="navi mobile-only">
-              <li><a title="News AltcoinTrading.NET Exchanges" href="https://www.altcointrading.net/category/exchanges/">News Regarding Exchanges</a></li>
+        <!-- ====DESKTOP===== MENU START -->
+        <nav class="main" id="desktopmenu">
+          <div class="twelve columns desktop-only">
+            <ul class="navi">
+              <li><a title="Home" href="/">All News</a></li>
+<li><a>&middot;</a></li>
+<li><a title="News AltcoinTrading.NET Exchanges" href="https://www.altcointrading.net/tag/businessofcrypto/">#BusinessOfCrypto</a></li>
 <li><a title="News AltcoinTrading.NET No-ICO projects" href="https://www.altcointrading.net/category/no-ico/">No-ICO&nbsp;Projects</a></li>
 <li><a>&middot;</a></li>
 <li><a title="News AltcoinTrading.NET Security" href="https://www.altcointrading.net/security/"><span class="yellow">Crypto Security</span></a></li>
 <li><a title="Cryptocurrency Trading Strategy" href="https://www.altcointrading.net/strategy/">Trading Strategy</a></li>
 <li><a>&middot;</a></li>
-<li><a title="Cryptocurrency Trading Blog" href="https://www.altcointrading.net/category/trading/">AltcoinTrading Blog</a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="https://www.altcointrading.net/guides/">Newbie Trader Guides</a></li>
+<li><a title="Cryptocurrency Trading Blog" href="https://www.altcointrading.net/category/trading/">Trading Blog</a></li>
+<li><a title="Cryptocurrency Newbie Traders Guides" href="https://www.altcointrading.net/guides/">Guides</a></li>
 <li><a>&middot;</a></li>
-<li><a title="News AltcoinTrading.NET Airdrops" href="https://www.altcointrading.net/airdrops/">Current Airdrops</a></li>
-<li><a rel="nofollow,noopener" title="Bitcoin Forks Info" href="https://forkit.info">Current Forks</a></li>
+<li><a title="News AltcoinTrading.NET Airdrops" href="https://www.altcointrading.net/airdrops/">Airdrops & Bounties</a></li>
 
             </ul>
           </div>
         </nav>
+        <!-- nav END -->
 
-     </div> <!--/.tooltip-content-->
-    </div><!--/.tooltip-->
-  </div>
-
-  <!-- ====DESKTOP===== MENU START -->
-  <nav class="main" id="desktopmenu">
-    <div class="twelve columns desktop-only">
-      <ul class="navi">
-        <li><a title="News AltcoinTrading.NET Exchanges" href="https://www.altcointrading.net/category/exchanges/">News Regarding Exchanges</a></li>
+        <amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+        <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+        <ul class="navi mobile-only">
+          <li><a title="Home" href="/">All News</a></li>
+<li><a>&middot;</a></li>
+<li><a title="News AltcoinTrading.NET Exchanges" href="https://www.altcointrading.net/tag/businessofcrypto/">#BusinessOfCrypto</a></li>
 <li><a title="News AltcoinTrading.NET No-ICO projects" href="https://www.altcointrading.net/category/no-ico/">No-ICO&nbsp;Projects</a></li>
 <li><a>&middot;</a></li>
 <li><a title="News AltcoinTrading.NET Security" href="https://www.altcointrading.net/security/"><span class="yellow">Crypto Security</span></a></li>
 <li><a title="Cryptocurrency Trading Strategy" href="https://www.altcointrading.net/strategy/">Trading Strategy</a></li>
 <li><a>&middot;</a></li>
-<li><a title="Cryptocurrency Trading Blog" href="https://www.altcointrading.net/category/trading/">AltcoinTrading Blog</a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="https://www.altcointrading.net/guides/">Newbie Trader Guides</a></li>
+<li><a title="Cryptocurrency Trading Blog" href="https://www.altcointrading.net/category/trading/">Trading Blog</a></li>
+<li><a title="Cryptocurrency Newbie Traders Guides" href="https://www.altcointrading.net/guides/">Guides</a></li>
 <li><a>&middot;</a></li>
-<li><a title="News AltcoinTrading.NET Airdrops" href="https://www.altcointrading.net/airdrops/">Current Airdrops</a></li>
-<li><a rel="nofollow,noopener" title="Bitcoin Forks Info" href="https://forkit.info">Current Forks</a></li>
+<li><a title="News AltcoinTrading.NET Airdrops" href="https://www.altcointrading.net/airdrops/">Airdrops & Bounties</a></li>
 
-      </ul>
-    </div>
-  </nav>
-  <!-- nav END -->
+        </ul>
+        </amp-sidebar>
 
 </div>
 
@@ -350,7 +426,7 @@ color: #010b18;
         
           <a href="/page4" class="prev"><< Previous</a>
         
-        <span class="page_number ">All Articles - Page: 5 of 7</span>
+        <span class="page_number ">5 of 7</span>
         
           <a href="/page6" class="next">Next >></a>
         
@@ -366,10 +442,100 @@ color: #010b18;
               <strong>
                 <span class="tag">Blog</span>&nbsp;
                 
-                <small>11 Jun 2017, 21:39 UTC</small>
+                <small>18 Jun 2017, 14:12 UTC, by KarlVonBahnhof</small>
+                <br>
+                <a  class="index-internal"  href="/lending-btc-chain-split/" title="Lending in the time of chain split">Lending in the time of chain split</a>
+              </strong>
+            </h5>
+            <div class="home-latest-excerpt">
+              UPDATE 13 Mar 2018, 19:21 UTC - Collecting the data on exchange policy in case of Bitcoin network split. If you lend out bitcoins, you need to read this.
+            </div>
+          </div>
+          
+          <div class="five columns">
+            <a  class="index-internal" href="/lending-btc-chain-split/" title="Lending in the time of chain split">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="/img/emotions/lending-chain-split.jpg" alt="Altcoin Trading Blog"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+          
+        </div>
+      
 
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
+        <div class="row home-latest"  id="gtm-latest">
+          <div class="seven columns">
+            <h5 class="post">
+              <strong>
+                <span class="tag">Blog</span>&nbsp;
                 
+                <small>15 Jun 2017, 10:12 UTC, by KarlVonBahnhof</small>
+                <br>
+                <a  class="index-internal"  href="/tezos/" title="Tezos fundraiser scheduled 1 July">Tezos fundraiser scheduled 1 July</a>
+              </strong>
+            </h5>
+            <div class="home-latest-excerpt">
+              UPDATE 13 Mar 2018, 19:21 UTC - Updated - Details about the funding ways, conditions set by Bitcoin Suisse and conversion rates from BTC
+            </div>
+          </div>
+          
+          <div class="five columns">
+            <a  class="index-internal" href="/tezos/" title="Tezos fundraiser scheduled 1 July">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="/img/emotions/whales.jpg" alt="Altcoin Trading Blog"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+          
+        </div>
+      
+
+        <div class="row home-latest"  id="gtm-latest">
+          <div class="seven columns">
+            <h5 class="post">
+              <strong>
+                <span class="tag">Blog</span>&nbsp;
+                
+                <small>15 Jun 2017, 06:36 UTC, by KarlVonBahnhof</small>
+                <br>
+                <a  class="index-internal"  href="/ledger-monero/" title="Ledger CTO says Monero viable">Ledger CTO says Monero viable</a>
+              </strong>
+            </h5>
+            <div class="home-latest-excerpt">
+              UPDATE 13 Mar 2018, 19:21 UTC - The likelihood of Monero getting its first hardware wallet is growing - the CTO of Ledger wallet says the next step is providing ETA.
+            </div>
+          </div>
+          
+          <div class="five columns">
+            <a  class="index-internal" href="/ledger-monero/" title="Ledger CTO says Monero viable">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="/uploads/2017/06/15/ledger-monero.png" alt="Altcoin Trading Blog"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+          
+        </div>
+      
+
+        <div class="row home-latest"  id="gtm-latest">
+          <div class="seven columns">
+            <h5 class="post">
+              <strong>
+                <span class="tag">Blog</span>&nbsp;
+                
+                <small>11 Jun 2017, 21:39 UTC, by KarlVonBahnhof</small>
                 <br>
                 <a  class="index-internal"  href="/jaxx-vulnerability/" title="Important - Jaxx Vulnerability">Important - Jaxx Vulnerability</a>
               </strong>
@@ -400,10 +566,7 @@ color: #010b18;
               <strong>
                 <span class="tag">Blog</span>&nbsp;
                 
-                <small>04 Jun 2017, 17:07 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
+                <small>04 Jun 2017, 17:07 UTC, by KarlVonBahnhof</small>
                 <br>
                 <a  class="index-internal"  href="/iota/" title="Bitfinex is adding IOTA trading">Bitfinex is adding IOTA trading</a>
               </strong>
@@ -434,10 +597,7 @@ color: #010b18;
               <strong>
                 <span class="tag">Blog</span>&nbsp;
                 
-                <small>31 May 2017, 11:53 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By @tradingfanbois</small>
-                
+                <small>31 May 2017, 11:53 UTC, by @tradingfanbois</small>
                 <br>
                 <a  class="index-internal"  href="/bat-eth/" title="BAT/ETH trading is live">BAT/ETH trading is live</a>
               </strong>
@@ -468,10 +628,7 @@ color: #010b18;
               <strong>
                 <span class="tag">Blog</span>&nbsp;
                 
-                <small>31 May 2017, 11:23 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
+                <small>31 May 2017, 11:23 UTC, by KarlVonBahnhof</small>
                 <br>
                 <a  class="index-internal"  href="/okcoin-withdrawals/" title="OkCoin resumed BTC withdrawals">OkCoin resumed BTC withdrawals</a>
               </strong>
@@ -502,10 +659,7 @@ color: #010b18;
               <strong>
                 <span class="tag">Blog</span>&nbsp;
                 
-                <small>31 May 2017, 03:00 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
+                <small>31 May 2017, 03:00 UTC, by KarlVonBahnhof</small>
                 <br>
                 <a  class="index-internal"  href="/okcoin-eth/" title="OkCoin Intl is adding ETH on June 1st 2017">OkCoin Intl is adding ETH on June 1st 2017</a>
               </strong>
@@ -536,10 +690,7 @@ color: #010b18;
               <strong>
                 <span class="tag">Blog</span>&nbsp;
                 
-                <small>27 May 2017, 09:29 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
+                <small>27 May 2017, 09:29 UTC, by KarlVonBahnhof</small>
                 <br>
                 <a  class="index-internal"  href="/huobi-eth/" title="Huobi is adding ETH on May 31st">Huobi is adding ETH on May 31st</a>
               </strong>
@@ -570,10 +721,7 @@ color: #010b18;
               <strong>
                 <span class="tag">Opinion</span>&nbsp;
                 
-                <small>22 May 2017, 06:38 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
+                <small>22 May 2017, 06:38 UTC, by KarlVonBahnhof</small>
                 <br>
                 <a  class="index-internal"  href="/ripple-vs-stellar/" title="Ripple vs Stellar">Ripple vs Stellar</a>
               </strong>
@@ -587,108 +735,6 @@ color: #010b18;
             <a  class="index-internal" href="/ripple-vs-stellar/" title="Ripple vs Stellar">
               <figure class="thumb">
                 <amp-img itemprop="image" src="/features/ripple-network.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
-        </div>
-      
-
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>20 May 2017, 09:11 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
-                <br>
-                <a  class="index-internal"  href="/diversification-craze/" title="How the legacy finance might be feeling about cryptocurrencies">How the legacy finance might be feeling about cryptocurrencies</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 13 Mar 2018, 19:21 UTC - This comes from a mainstream finance & investing newsletter. 
-            </div>
-          </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/diversification-craze/" title="How the legacy finance might be feeling about cryptocurrencies">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/uploads/2017/05/20/eth-mainstream.png" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
-        </div>
-      
-
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>18 May 2017, 03:41 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
-                <br>
-                <a  class="index-internal"  href="/monero-mining-malware/" title="Monero mining malware">Monero mining malware</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 19 Mar 2018, 14:52 UTC - After WannaCry, UIWIX Ransomware and Monero-Mining Malware Follow Suit
-            </div>
-          </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/monero-mining-malware/" title="Monero mining malware">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/img/xmr/monero-cli-2.png" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
-        </div>
-      
-
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog, Opinion</span>&nbsp;
-                
-                <small>11 May 2017, 12:49 UTC</small>
-
-                <small class="author">&nbsp;&middot;&nbsp;By KarlVonBahnhof</small>
-                
-                <br>
-                <a  class="index-internal"  href="/peerplays/" title="Peerplays crowdfund ends in 3 days">Peerplays crowdfund ends in 3 days</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 13 Mar 2018, 19:21 UTC - Do you actually think this has future or did you just hear dividends?
-            </div>
-          </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/peerplays/" title="Peerplays crowdfund ends in 3 days">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/uploads/2017/05/11/peerplays.png" alt="Altcoin Trading Blog"
                 layout="responsive"
                 data-original-width="720px" data-original-height="360px"
                 width="150px" height="80px">
@@ -786,37 +832,6 @@ color: #010b18;
 </div>
 
 
-
-
-<!-- Google Tag Manager -->
-<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-TJNG2LQ&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
-
-
-<amp-analytics type="googleanalytics">
-<script type="application/json">
-{
-  "vars": {
-    "account": "UA-73503011-3"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    },
-    "outboundLinks": {
-        "on": "click",
-        "selector": "a",
-        "request": "event",
-        "vars": {
-          "eventCategory": "outbound",
-          "eventAction": "click",
-          "eventValue": "${outboundLink}"
-        }
-      }
-  }
-}
-</script>
-</amp-analytics>
 </div>
 
   </div>

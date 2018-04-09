@@ -22,6 +22,7 @@
           width="75px" height="90px"></amp-img></a>
         </div>
         <div class="textlogo">
+          <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="tooltip-label-menu"><i class="fa fa-bars fa-2" aria-hidden="true"></i></div>
           <h1><a href="/">News.AltcoinTrading.NET</a></h1>
           <h2><a href="/">News & Analyses</a></h2>
           <small><em>{{ site.subtitle }} Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>.</em></small>
@@ -39,35 +40,23 @@
           </amp-iframe>
       </div>
     </div>
+  </div>
 
-    <div class="tooltip" id="togglemenu">
-      <input type="checkbox" value="selected" id="mobile-menu-1" class="tooltip-input">
-      <label for="mobile-menu-1" class="tooltip-label-menu">
-        <i class="fa fa-bars fa-2" aria-hidden="true"></i>&nbsp;MENU
-      </label>
-      <div role="tooltip" id="togglemenuID" class="tooltip-content">
-
-        <!-- mobile nav START -->
-        <nav class="main">
-          <div class="twelve columns">
-            <ul class="navi mobile-only">
+        <!-- ====DESKTOP===== MENU START -->
+        <nav class="main" id="desktopmenu">
+          <div class="twelve columns desktop-only">
+            <ul class="navi">
               {% include menu.html %}
             </ul>
           </div>
         </nav>
+        <!-- nav END -->
 
-     </div> <!--/.tooltip-content-->
-    </div><!--/.tooltip-->
-  </div>
-
-  <!-- ====DESKTOP===== MENU START -->
-  <nav class="main" id="desktopmenu">
-    <div class="twelve columns desktop-only">
-      <ul class="navi">
-        {% include menu.html %}
-      </ul>
-    </div>
-  </nav>
-  <!-- nav END -->
+        <amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+        <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+        <ul class="navi mobile-only">
+          {% include menu.html %}
+        </ul>
+        </amp-sidebar>
 
 </div>

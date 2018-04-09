@@ -1,0 +1,81 @@
+.tooltip-label-menu {
+  display: none;
+}
+@media (max-width: 667px){
+
+  figure.border {
+    border: none;
+  }
+  .textlogo {text-align:center;}
+  .dogeshare-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #f2f2f2f2;
+    width: 100%;
+    text-align: left;
+    padding: 25px;
+    box-sizing: border-box;
+    z-index: 99;
+  }
+  .dogeshare-second {display: none}
+  .logo {
+    width: 42px;
+  }
+  #altindexbox, #performancebox {display: none}
+  .tooltip-label-menu {
+    font-size: 2em;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    margin-bottom: 2em;
+    color: #000b17;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  amp-sidebar {
+    max-width: 50vw!important;
+    background-color: #010b18;
+    color: white;
+  }
+  .close-sidebar {
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  amp-sidebar a, amp-sidebar a:hover {
+    color: #6e8ba9d1
+  }
+
+  .pagination>.prev {width: 27%;}
+
+  h5.post {
+    padding: 0;
+    background: transparent;
+    color: black;
+    left: 0;
+    border-left: 0;
+  }
+  h5.post small {
+    font-size: 57%;
+    position: relative;
+    top: -4px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .home-latest-excerpt{display: none}
+  .row.home-latest .seven.columns {
+    width: 100%;
+  }
+  .row.home-latest {
+    border-top: 5px solid #03203f;
+    border-bottom: none;
+  }
+  .row.home-latest, .row.home-top-new {
+    margin-bottom: 0;
+  }
+  h4.post-main {background: transparent}
+  span#note, span.note {margin-bottom:0}
+}

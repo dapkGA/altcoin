@@ -5,7 +5,7 @@
 
   
     <url>
-      <loc>https://news.altcointrading.net/press/cryptoloans/</loc>
+      <loc>http://localhost:4000/press/cryptoloans/</loc>
       <lastmod>2018-03-19T01:23:36+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -20,8 +20,8 @@
     </url>
   
     <url>
-      <loc>https://news.altcointrading.net/press/coins4favors/</loc>
-      <lastmod>2018-03-30T08:16:47+00:00</lastmod>
+      <loc>http://localhost:4000/press/coins4favors/</loc>
+      <lastmod>2018-03-30T08:36:34+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -39,7 +39,67 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/dex-trading/</loc>
+      <loc>http://localhost:4000/twitter-crypto-ban-info/</loc>
+      <lastmod>2018-04-09T11:39:02+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-04-08T01:35:00+00:00</news:publication_date>
+        <news:title>Token Marketing #1: Twitter's Crypto Ban</news:title>
+        <news:keywords>twitter,twitter-crypto-ban,cryptodisrupt,token-launch-marketing,business-of-crypto</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/ripple-bullish-fundamentals/</loc>
+      <lastmod>2018-04-05T11:24:27+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-04-05T09:35:00+00:00</news:publication_date>
+        <news:title>4 Reasons to Be Bullish on Ripple</news:title>
+        <news:keywords>ripple,uphold,western-union,netherlands-central-bank,altcoin-trading</news:keywords>
+        <news:stock_tickers>CURRENCY:BTC, OTCMKTS:GBTC</news:stock_tickers>
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/dex-copytrading/</loc>
+      <lastmod>2018-04-05T11:24:27+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-04-01T02:58:00+00:00</news:publication_date>
+        <news:title>DEX Series, Episode 2: Copy trading</news:title>
+        <news:keywords>business-of-crypto,aurora-dao,leverj-io,altcoin-io,0x,ddex,idex,ron-bernstein,non-custodial-trading,airswap</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/dex-trading/</loc>
       <lastmod>2018-03-24T02:30:07+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -59,7 +119,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/regulations-decentralized-exchanges/</loc>
+      <loc>http://localhost:4000/regulations-decentralized-exchanges/</loc>
       <lastmod>2018-03-10T17:43:20+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -79,7 +139,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/circle-poloniex/</loc>
+      <loc>http://localhost:4000/circle-poloniex/</loc>
       <lastmod>2018-03-07T17:51:14+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -99,7 +159,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/millennials-bitcoin-valuation/</loc>
+      <loc>http://localhost:4000/millennials-bitcoin-valuation/</loc>
       <lastmod>2018-03-07T17:51:14+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -119,7 +179,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/dai-stablecoin/</loc>
+      <loc>http://localhost:4000/dai-stablecoin/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -139,7 +199,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/tether-subpoena/</loc>
+      <loc>http://localhost:4000/tether-subpoena/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -159,7 +219,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/weiss-rating/</loc>
+      <loc>http://localhost:4000/weiss-rating/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -179,7 +239,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/cakewallet/</loc>
+      <loc>http://localhost:4000/cakewallet/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -199,7 +259,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/blockstream-lightning-charge/</loc>
+      <loc>http://localhost:4000/blockstream-lightning-charge/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -219,7 +279,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/exchange-tos-comparison/</loc>
+      <loc>http://localhost:4000/exchange-tos-comparison/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -239,7 +299,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/south-korea-arbitrage/</loc>
+      <loc>http://localhost:4000/south-korea-arbitrage/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -259,7 +319,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/cex-io-registrations/</loc>
+      <loc>http://localhost:4000/cex-io-registrations/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -279,7 +339,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitfinex-referrals-stopped/</loc>
+      <loc>http://localhost:4000/bitfinex-referrals-stopped/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -299,7 +359,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/kraken-upgrade/</loc>
+      <loc>http://localhost:4000/kraken-upgrade/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -319,7 +379,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitfinex-tether-transparency/</loc>
+      <loc>http://localhost:4000/bitfinex-tether-transparency/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -339,7 +399,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/coinloop/</loc>
+      <loc>http://localhost:4000/coinloop/</loc>
       <lastmod>2018-02-21T09:04:45+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -359,7 +419,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitfinex-fiat-routes/</loc>
+      <loc>http://localhost:4000/bitfinex-fiat-routes/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -379,7 +439,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitcoin-gold/</loc>
+      <loc>http://localhost:4000/bitcoin-gold/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -399,7 +459,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/tether-hack/</loc>
+      <loc>http://localhost:4000/tether-hack/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -419,7 +479,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bcash-rally-november-2017/</loc>
+      <loc>http://localhost:4000/bcash-rally-november-2017/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -439,7 +499,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/segwit2x-ledger-trezor/</loc>
+      <loc>http://localhost:4000/segwit2x-ledger-trezor/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -459,7 +519,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/cryptocurrency-debit-card-non-eu/</loc>
+      <loc>http://localhost:4000/cryptocurrency-debit-card-non-eu/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -479,7 +539,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/customer-support-zen/</loc>
+      <loc>http://localhost:4000/customer-support-zen/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -499,7 +559,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitfinex-segwit2x-distribution/</loc>
+      <loc>http://localhost:4000/bitfinex-segwit2x-distribution/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -519,7 +579,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/reftoken-ico/</loc>
+      <loc>http://localhost:4000/reftoken-ico/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -539,7 +599,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/altcoin-analytics-primer-neo/</loc>
+      <loc>http://localhost:4000/altcoin-analytics-primer-neo/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -559,7 +619,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/china-bans-btc-season-3/</loc>
+      <loc>http://localhost:4000/china-bans-btc-season-3/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -579,7 +639,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitfinex-not-affected-pbox-ico/</loc>
+      <loc>http://localhost:4000/bitfinex-not-affected-pbox-ico/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -599,7 +659,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/korea-missile-cryptocurrency/</loc>
+      <loc>http://localhost:4000/korea-missile-cryptocurrency/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -619,7 +679,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/trezor-hack/</loc>
+      <loc>http://localhost:4000/trezor-hack/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -639,7 +699,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitstamp-ethereum/</loc>
+      <loc>http://localhost:4000/bitstamp-ethereum/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -659,7 +719,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bitfinex-banking/</loc>
+      <loc>http://localhost:4000/bitfinex-banking/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -679,7 +739,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/ios-dash-wallet-app/</loc>
+      <loc>http://localhost:4000/ios-dash-wallet-app/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -699,7 +759,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/eth-multisig-hack/</loc>
+      <loc>http://localhost:4000/eth-multisig-hack/</loc>
       <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -719,7 +779,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/pos/</loc>
+      <loc>http://localhost:4000/pos/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -739,7 +799,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/trezor-monero/</loc>
+      <loc>http://localhost:4000/trezor-monero/</loc>
       <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -759,7 +819,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/garyvee-eth/</loc>
+      <loc>http://localhost:4000/garyvee-eth/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -779,7 +839,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/lending-btc-chain-split/</loc>
+      <loc>http://localhost:4000/lending-btc-chain-split/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -799,7 +859,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/tezos/</loc>
+      <loc>http://localhost:4000/tezos/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -819,7 +879,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/ledger-monero/</loc>
+      <loc>http://localhost:4000/ledger-monero/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -839,7 +899,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/jaxx-vulnerability/</loc>
+      <loc>http://localhost:4000/jaxx-vulnerability/</loc>
       <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -859,7 +919,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/iota/</loc>
+      <loc>http://localhost:4000/iota/</loc>
       <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -879,7 +939,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/bat-eth/</loc>
+      <loc>http://localhost:4000/bat-eth/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -899,7 +959,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/okcoin-withdrawals/</loc>
+      <loc>http://localhost:4000/okcoin-withdrawals/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -919,7 +979,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/okcoin-eth/</loc>
+      <loc>http://localhost:4000/okcoin-eth/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -939,7 +999,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/huobi-eth/</loc>
+      <loc>http://localhost:4000/huobi-eth/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -959,7 +1019,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/ripple-vs-stellar/</loc>
+      <loc>http://localhost:4000/ripple-vs-stellar/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -979,7 +1039,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/diversification-craze/</loc>
+      <loc>http://localhost:4000/diversification-craze/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -999,7 +1059,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/monero-mining-malware/</loc>
+      <loc>http://localhost:4000/monero-mining-malware/</loc>
       <lastmod>2018-03-19T14:52:46+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1019,7 +1079,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/peerplays/</loc>
+      <loc>http://localhost:4000/peerplays/</loc>
       <lastmod>2018-03-13T19:21:06+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1039,7 +1099,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/ico-regulations/</loc>
+      <loc>http://localhost:4000/ico-regulations/</loc>
       <lastmod>2018-03-19T01:23:36+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1059,7 +1119,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/etc-etf/</loc>
+      <loc>http://localhost:4000/etc-etf/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1079,7 +1139,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/gnosis/</loc>
+      <loc>http://localhost:4000/gnosis/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1099,7 +1159,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/time-vs-timing/</loc>
+      <loc>http://localhost:4000/time-vs-timing/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1119,7 +1179,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/litecoin-pump/</loc>
+      <loc>http://localhost:4000/litecoin-pump/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1139,7 +1199,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/ethereum-etf/</loc>
+      <loc>http://localhost:4000/ethereum-etf/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1159,7 +1219,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/eth-traders-tool/</loc>
+      <loc>http://localhost:4000/eth-traders-tool/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1179,7 +1239,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/zoe-ethereum-alphabay/</loc>
+      <loc>http://localhost:4000/zoe-ethereum-alphabay/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1199,7 +1259,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/ethereum-etf-unlikely/</loc>
+      <loc>http://localhost:4000/ethereum-etf-unlikely/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1219,7 +1279,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/dash-03-2017/</loc>
+      <loc>http://localhost:4000/dash-03-2017/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1239,7 +1299,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/kraken-cryptowatch/</loc>
+      <loc>http://localhost:4000/kraken-cryptowatch/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1259,7 +1319,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/trezor-multicoin/</loc>
+      <loc>http://localhost:4000/trezor-multicoin/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>
@@ -1279,7 +1339,7 @@
   
 
     <url>
-      <loc>https://news.altcointrading.net/finexening/</loc>
+      <loc>http://localhost:4000/finexening/</loc>
       <lastmod>2018-02-20T17:39:24+00:00</lastmod>
       <news:news>
         <news:publication>

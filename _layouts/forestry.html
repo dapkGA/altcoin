@@ -7,29 +7,12 @@ layout: default-news
 
    <div class="eight columns post-content offset-by-two">
 
-
-
-     <section class="nl container-center">
-       <p>
-         Want to get an news article published, linking to your blog and social media, with your own donation crypto addresses?
-       </p>
-       <a target="_blank" href="https://jmt3.typeform.com/to/sWypuE"><strong>We have a Typeform for it</strong></a>
-     </section>
-     <br>
-
-
-     <div>
-       {{ site.ledger_728-90_animated }}
-     </div>
-
-     <br>
-
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
          {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;
          {% elsif page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
          Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
-         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+         {% if page.author %}{% unless page.guest %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endunless %}{% endif %}
          {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
        </span>
        <h4 class="post post-main">
@@ -40,6 +23,9 @@ layout: default-news
           <article class="maincontent">
           <div>
             {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+          </div>
+          <div class="">
+            <em>{{page.image_alt[0]}}</em>
           </div>
 
           <div>
@@ -79,29 +65,21 @@ layout: default-news
               Written by <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>
             </p>
             <div>
-              {% if page.author_name contains "KarlVonBahnhof" %}
-                {% assign item = site.author_details[0] %}
+
+              {% for item in site.author_details %}
+                {% if page.author_name contains item.name %}
                   {% include bios/template.html %}
-              {% elsif page.author_name contains "tradingfanbois"  %}
-                {% assign item = site.author_details[1] %}
-                  {% include bios/template.html %}
-              {% endif %}
+                {% endif %}
+              {% endfor %}
+
+
+
             </div>
           </section>
 
           <hr>
 
-          <div>
-          <a href="https://www.altcointrading.net/{{page.url}}?utm_medium=Google-News&utm_source=AltcoinTradingNews">[Read this article on AltcoinTrading.NET]</a>
-          &nbsp;
-          {% if page.german %}<a href="https://de.altcointrading.net/{{page.german}}?utm_medium=Google-News&utm_source=AltcoinTradingNews">[Read this article in German]</a>{% endif %}
-          &nbsp;
-          {% if page.cz %}<a href="https://altcointrading.cz/{{page.cz}}/?utm_medium=Google-News&utm_source=AltcoinTradingNews">[Read this article in Czech]</a>{% endif %}
-          &nbsp;
-          </div>
 
-
-          <hr>
 
           <div class="clearfix"></div>
 
@@ -114,12 +92,10 @@ layout: default-news
 
           <div class="clearfix"></div>
 
-          <hr>
-
 
           {% if page.comments %}
 
-          <h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
+          <h2 class="posh" id="disqus_embed">Comments</h2>
 
           <div id="disqus_thread"></div>
           <script>
@@ -154,12 +130,17 @@ layout: default-news
 
           {% if page.stories %}
           <p>
-            <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow,noopener" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
+            <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow,noopener" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Tickers: <strong>{{ page.tickers }}</strong>{% endif %}
           </p>
 
 
 
           {% endif %}
+
+
+
+
+
 
 
         </article>

@@ -25,7 +25,7 @@ cz: false
 image:
 - "/editorial/unsplash2/atnet-twitter.jpg"
 image_alt:
-- ""
+- "The social media bans are not necessarily bad. In fact, it could be a way these giant corporations want to stay ahead."
 
 categories: ["trading"]
 tags: [ "twitter", "twitter-crypto-ban", "cryptodisrupt", "token-launch-marketing", "business-of-crypto"]
@@ -86,7 +86,7 @@ Genuine ICO offerings suffer from the bans against crypto ads as it closes an av
 
 However, it is unclear how and to what extent it affects them.   Cryptocurrencies have a way of selling themselves as various token communities spread hype on a variety of platforms.
 
-Some companies [don’t even have ICOs](/category/no-ico/), relying instead on the quality of their product to generate interest and others offer their tokens for free as part of a community Airdrop.
+Some companies [don’t even have ICOs](https://www.altcointrading.net/category/no-ico/), relying instead on the quality of their product to generate interest and others offer their tokens for free as part of a community Airdrop.
 
   Banning crypto ads does make it difficult for the laziest of scammers to gain traction. It may be allowing the best or most widely supported coins to thrive, and future developments in the technology could give Twitter and its peers a reason to soften their outlook.  
 

@@ -2,17 +2,105 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News AltcoinTrading.NET - All Posts</title>
-    <description>Cryptocurrency news from AltcoinTrading.NET, distilled to a more readable form without the fluff.</description>
-    <link>https://news.altcointrading.net/</link>
+    <description>Your independent portal on news analyses regarding crypto. Same content as on AltcoinTrading.NET but distilled to a more readable form without ads.</description>
+    <link>http://localhost:4000/</link>
     <image>
-      <url>https://news.altcointrading.net/img/logo.jpg</url>
+      <url>http://localhost:4000/img/logo.jpg</url>
       <title>News AltcoinTrading.NET</title>
-      <link>https://news.altcointrading.net/</link>
+      <link>http://localhost:4000/</link>
     </image>
-    <atom:link href="https://news.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Mar 2018 08:16:52 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Mar 2018 08:16:52 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 Apr 2018 22:06:28 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Apr 2018 22:06:28 +0000</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>Token Marketing #1: Twitter's Crypto Ban</title>
+        <description>An intro to the seemingly anti-crypto shitstorm that hit all social media at the start of April 2018.</description>
+
+        <author>CryptoDisrupt@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Sun, 08 Apr 2018 01:35:00 +0000</pubDate>
+        <link>http://localhost:4000/twitter-crypto-ban-info/</link>
+        <guid isPermaLink="true">http://localhost:4000/twitter-crypto-ban-info/</guid>
+        
+        <category>twitter</category>
+        
+        <category>twitter-crypto-ban</category>
+        
+        <category>cryptodisrupt</category>
+        
+        <category>token-launch-marketing</category>
+        
+        <category>business-of-crypto</category>
+        
+        
+        <category>trading</category>
+        
+      </item>
+    
+      <item>
+        <title>4 Reasons to Be Bullish on Ripple</title>
+        <description>The main scoop of the week is the result of Ripple's partnership with Western Union, but there's more.</description>
+
+        <author>Cameron@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Thu, 05 Apr 2018 09:35:00 +0000</pubDate>
+        <link>http://localhost:4000/ripple-bullish-fundamentals/</link>
+        <guid isPermaLink="true">http://localhost:4000/ripple-bullish-fundamentals/</guid>
+        
+        <category>ripple</category>
+        
+        <category>uphold</category>
+        
+        <category>western-union</category>
+        
+        <category>netherlands-central-bank</category>
+        
+        <category>altcoin-trading</category>
+        
+        
+        <category>altcoins</category>
+        
+      </item>
+    
+      <item>
+        <title>DEX Series, Episode 2: Copy trading</title>
+        <description>Legacy houses are capitalizing big on crypto followers. Can decentralized exchanges offer better experience in managed trading or is the space too crowded?</description>
+
+        <author>tradingfanbois@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Sun, 01 Apr 2018 02:58:00 +0000</pubDate>
+        <link>http://localhost:4000/dex-copytrading/</link>
+        <guid isPermaLink="true">http://localhost:4000/dex-copytrading/</guid>
+        
+        <category>business-of-crypto</category>
+        
+        <category>aurora-dao</category>
+        
+        <category>leverj-io</category>
+        
+        <category>altcoin-io</category>
+        
+        <category>0x</category>
+        
+        <category>ddex</category>
+        
+        <category>idex</category>
+        
+        <category>ron-bernstein</category>
+        
+        <category>non-custodial-trading</category>
+        
+        <category>airswap</category>
+        
+        
+        <category>exchanges</category>
+        
+      </item>
     
       <item>
         <title>DEX Series, Episode 1: Trade Execution Management</title>
@@ -22,8 +110,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Fri, 23 Mar 2018 15:35:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/dex-trading/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/dex-trading/</guid>
+        <link>http://localhost:4000/dex-trading/</link>
+        <guid isPermaLink="true">http://localhost:4000/dex-trading/</guid>
         
         <category>leverj</category>
         
@@ -58,8 +146,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Thu, 08 Mar 2018 01:35:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/regulations-decentralized-exchanges/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/regulations-decentralized-exchanges/</guid>
+        <link>http://localhost:4000/regulations-decentralized-exchanges/</link>
+        <guid isPermaLink="true">http://localhost:4000/regulations-decentralized-exchanges/</guid>
         
         <category>leverj</category>
         
@@ -88,8 +176,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Mon, 26 Feb 2018 14:35:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/circle-poloniex/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/circle-poloniex/</guid>
+        <link>http://localhost:4000/circle-poloniex/</link>
+        <guid isPermaLink="true">http://localhost:4000/circle-poloniex/</guid>
         
         <category>poloniex</category>
         
@@ -118,8 +206,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Mon, 26 Feb 2018 10:05:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/millennials-bitcoin-valuation/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/millennials-bitcoin-valuation/</guid>
+        <link>http://localhost:4000/millennials-bitcoin-valuation/</link>
+        <guid isPermaLink="true">http://localhost:4000/millennials-bitcoin-valuation/</guid>
         
         <category>fundstrat</category>
         
@@ -148,8 +236,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Thu, 01 Feb 2018 01:13:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/dai-stablecoin/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/dai-stablecoin/</guid>
+        <link>http://localhost:4000/dai-stablecoin/</link>
+        <guid isPermaLink="true">http://localhost:4000/dai-stablecoin/</guid>
         
         <category>dai</category>
         
@@ -180,8 +268,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Wed, 31 Jan 2018 00:53:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/tether-subpoena/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/tether-subpoena/</guid>
+        <link>http://localhost:4000/tether-subpoena/</link>
+        <guid isPermaLink="true">http://localhost:4000/tether-subpoena/</guid>
         
         <category>bitfinex</category>
         
@@ -212,8 +300,8 @@
         <webmaster>info@altcointrading.net</webmaster>
 
         <pubDate>Wed, 24 Jan 2018 03:56:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/weiss-rating/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/weiss-rating/</guid>
+        <link>http://localhost:4000/weiss-rating/</link>
+        <guid isPermaLink="true">http://localhost:4000/weiss-rating/</guid>
         
         <category>weiss-rating</category>
         
@@ -227,90 +315,6 @@
         
         
         <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>First ever iOS wallet for Monero</title>
-        <description>Coinomi integration will be available soon but Cakewallet is already hitting the AppStore.</description>
-
-        <author>GenericShill@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Fri, 19 Jan 2018 18:56:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/cakewallet/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/cakewallet/</guid>
-        
-        <category>monero</category>
-        
-        <category>cakewallet</category>
-        
-        <category>xmr</category>
-        
-        <category>ios-wallet</category>
-        
-        <category>new-release</category>
-        
-        
-        <category>wallets</category>
-        
-        <category>no-ico</category>
-        
-        <category>xmr</category>
-        
-      </item>
-    
-      <item>
-        <title>First version of Bitcoin Lightning Network is on the mainnet</title>
-        <description>LN Micro-transaction protocol on the bitcoin blockchain is currently powering the Blockstream e-shop, and is buggy.</description>
-
-        <author>GenericShill@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Thu, 18 Jan 2018 10:56:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/blockstream-lightning-charge/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/blockstream-lightning-charge/</guid>
-        
-        <category>blockstream</category>
-        
-        <category>lightning-network</category>
-        
-        <category>bitcoin-scaling</category>
-        
-        <category>micropayments</category>
-        
-        <category>ln</category>
-        
-        
-        <category>basics</category>
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Terms of Service - Comparison of popular crypto exchanges</title>
-        <description>Kraken, Bitfinex, Bitstamp, Binance and Kucoin compared.</description>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Tue, 16 Jan 2018 22:10:00 +0000</pubDate>
-        <link>https://news.altcointrading.net/exchange-tos-comparison/</link>
-        <guid isPermaLink="true">https://news.altcointrading.net/exchange-tos-comparison/</guid>
-        
-        <category>kraken</category>
-        
-        <category>bitfinex</category>
-        
-        <category>bitstamp</category>
-        
-        <category>binance</category>
-        
-        <category>kucoin</category>
-        
-        
-        <category>exchanges</category>
         
       </item>
     
