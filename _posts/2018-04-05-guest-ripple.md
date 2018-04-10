@@ -42,9 +42,6 @@ related:
 
 ---
 
-> This is a guest article by Cameron of the [cityofhype.com](https://www.cityofhype.com) - domain that sounds very Ripple but check them out, they are not at all one-sided when it comes to finance. Cameron is a finance analysts and investor in currencies and securities.
-
-
 #### 1 - Uphold and The London Bank Exchange are Using Ripple
 
 Uphold is a major cryptocurrency bank that allows someone to buy and hold their Ripple token for no transaction fee. The Ripple token can be converted into 7 other major cryptocurrencies and 23 fiat.
