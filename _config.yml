@@ -46,6 +46,7 @@ defaults:
     type: "posts"
   values:
     layout: "forestry"
+    sponsored: false
     guest: false
     german: false
     published: true
