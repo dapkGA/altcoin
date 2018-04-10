@@ -110,5 +110,3 @@ All in all, with service offers of this variety, the token economy is set to pro
 There is a fine line between sharing news and creating awareness about a product, and it is likely the token economy will become a tough business relying on the support of centralized legacy institutions rather than on the community. It seems that Bitcoin will eventually emerge as the only remaining decentralized blockchain but at least for the short run, the bulk of the most visible business development will be elsewhere.
 
 There is of course another implication. Watching how big media houses are creating factions and fighting one another to get a bigger share of the crypto-related service market, it just does not look like something that would happen in a dying industry. There is always the chance that a number of experienced people are terribly wrong, but honestly, how likely that is?
-
-*Disclosure: This article is not sponsored by anyone in any form.*
