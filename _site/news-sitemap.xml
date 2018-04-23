@@ -34,13 +34,68 @@
       </news:news>
     </url>
   
+    <url>
+      <loc>http://localhost:4000/press/shopiblock/</loc>
+      <lastmod>2018-04-20T21:57:29+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>PressRelease</news:genres>
+        <news:publication_date>2018-04-16T12:07:00+00:00</news:publication_date>
+        <news:title>Shopiblock - Streamlining the token e-commerce development</news:title>
+        <news:keywords>shopiblock,saas,erc20,ico,bounty,Rahel-Baumgartner,Serkan-Secgin,Anthony-Lange,Benjamin-Weber</news:keywords>
+      </news:news>
+    </url>
+  
 
   
   
 
     <url>
+      <loc>http://localhost:4000/monero-forks-april-2018/</loc>
+      <lastmod>2018-04-23T16:56:26+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-04-23T15:15:00+00:00</news:publication_date>
+        <news:title>Monero Forks Recap in April 2018</news:title>
+        <news:keywords>popular,business-of-crypto,fundamentals,market-analysis,cryptocurrency-investing</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/token-marketing-agencies/</loc>
+      <lastmod>2018-04-10T16:38:16+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-04-10T10:15:00+00:00</news:publication_date>
+        <news:title>Token Marketing #2: Agencies are more than happy about the bans</news:title>
+        <news:keywords>business-of-crypto,fundamentals,market-analysis,cryptocurrency-investing</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>http://localhost:4000/twitter-crypto-ban-info/</loc>
-      <lastmod>2018-04-09T11:39:02+00:00</lastmod>
+      <lastmod>2018-04-10T10:11:40+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -60,7 +115,7 @@
 
     <url>
       <loc>http://localhost:4000/ripple-bullish-fundamentals/</loc>
-      <lastmod>2018-04-05T11:24:27+00:00</lastmod>
+      <lastmod>2018-04-10T10:11:40+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>

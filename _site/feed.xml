@@ -10,9 +10,59 @@
       <link>http://localhost:4000/</link>
     </image>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Apr 2018 22:06:28 +0000</pubDate>
-    <lastBuildDate>Mon, 09 Apr 2018 22:06:28 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Apr 2018 17:15:44 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Apr 2018 17:15:44 +0000</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>Monero Forks Recap in April 2018</title>
+        <description>Checking back on the bunch of 'real Monero' projects from April '18', plus all you need to know about the MoneroV fork that is coming up.</description>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Mon, 23 Apr 2018 15:15:00 +0000</pubDate>
+        <link>http://localhost:4000/monero-forks-april-2018/</link>
+        <guid isPermaLink="true">http://localhost:4000/monero-forks-april-2018/</guid>
+        
+        <category>popular</category>
+        
+        <category>business-of-crypto</category>
+        
+        <category>fundamentals</category>
+        
+        <category>market-analysis</category>
+        
+        <category>cryptocurrency-investing</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Token Marketing #2: Agencies are more than happy about the bans</title>
+        <description>It only looks like big digital business turned anti-crypto. </description>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Tue, 10 Apr 2018 10:15:00 +0000</pubDate>
+        <link>http://localhost:4000/token-marketing-agencies/</link>
+        <guid isPermaLink="true">http://localhost:4000/token-marketing-agencies/</guid>
+        
+        <category>business-of-crypto</category>
+        
+        <category>fundamentals</category>
+        
+        <category>market-analysis</category>
+        
+        <category>cryptocurrency-investing</category>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Token Marketing #1: Twitter's Crypto Ban</title>
@@ -257,64 +307,6 @@
         <category>coins</category>
         
         <category>exchanges</category>
-        
-      </item>
-    
-      <item>
-        <title>Bloomberg publishes two months old Tether subpoena</title>
-        <description>Meanwhile, crypto traders panic and social_bfx on Reddit keeps posting the subpoena was related to the Tether hack.</description>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Wed, 31 Jan 2018 00:53:00 +0000</pubDate>
-        <link>http://localhost:4000/tether-subpoena/</link>
-        <guid isPermaLink="true">http://localhost:4000/tether-subpoena/</guid>
-        
-        <category>bitfinex</category>
-        
-        <category>usdt</category>
-        
-        <category>tether</category>
-        
-        <category>cryptocurrencies</category>
-        
-        <category>bitcoin</category>
-        
-        <category>cryptocurrency-trading</category>
-        
-        <category>fud</category>
-        
-        
-        <category>exchanges</category>
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Weiss rating of cryptocurrencies is due today at 8AM UTC</title>
-        <description>Updated with some commentary on the whole event.</description>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Wed, 24 Jan 2018 03:56:00 +0000</pubDate>
-        <link>http://localhost:4000/weiss-rating/</link>
-        <guid isPermaLink="true">http://localhost:4000/weiss-rating/</guid>
-        
-        <category>weiss-rating</category>
-        
-        <category>cryptocurrencies</category>
-        
-        <category>bitcoin</category>
-        
-        <category>cryptocurrency-trading</category>
-        
-        <category>mainstream-finance</category>
-        
-        
-        <category>trading</category>
         
       </item>
     

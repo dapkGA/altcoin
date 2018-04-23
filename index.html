@@ -12,7 +12,7 @@ navi:
        {% if site.press[0] %}
       <span class="note">Industry Press Releases // <a href="/press-releases/"><u>Read All</u></a></span>
       <div class="row" id="atnet-press">
-        {% for post in site.press offset: 0 limit: 3 %}
+        {% for post in site.press reversed offset: 0 limit: 3 %}
         <div class="columns four">
             <strong>
               <a href="{{ post.url }}">{{ post.title }}</a>

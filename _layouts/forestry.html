@@ -5,7 +5,7 @@ layout: default-news
 <div class="container">
   <div class="row">
 
-   <div class="eight columns post-content offset-by-two">
+   <div class="eight columns post-content">
 
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
@@ -25,7 +25,8 @@ layout: default-news
             {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
           </div>
           <div class="">
-            <em>{{page.image_alt[0]}}</em>
+            <p><em>{{page.image_alt[0]}}</em></p>
+            <hr>
           </div>
 
           <div>
@@ -145,5 +146,14 @@ layout: default-news
 
         </article>
     </div>
+    <div class="columns four">
+      <div class="google-news-tag">What we're Reading</div>
+      <span class="note" id="news">Newsblade</span>
+      <section class="newsblade" id="newsnews">
+        <amp-iframe width=320 height=500px layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://atnet-feeds.netlify.com/newsblade"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+        </amp-iframe>
+      </section>
+    </div>
+
   </div>
 </div>
