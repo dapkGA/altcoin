@@ -47,7 +47,7 @@ related:
 #series: "token-launch-marketing"
 ---
 
-Gone are the times when Monero was immune to forking. Upon their latest upgrade on 6 April 2018 that booted ASIC mining there have been so many forks that monero.org set up a [special page on their website listing all of their fork events and spin-off cryptocurrencies](https://monero.org/forks/).
+Gone are the times when Monero was immune to the forking trend. Upon their latest upgrade on 6 April 2018 that booted ASIC mining there have been so many forks that monero.org (not getmonero.org) set up a [special page on their website listing all of the fork events and spin-off cryptocurrencies](https://monero.org/forks/).
 
 This article is putting the names together with the forks' latest development updates and also checking back on the "original Monero" projects that cropped up early in April 2018, starting off with the one fork that is happening fairly soon.
 
