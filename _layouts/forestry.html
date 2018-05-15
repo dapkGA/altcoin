@@ -46,6 +46,21 @@ layout: default-news
             <p>Sign up to the <a rel="noopener" target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">mailing list</a> and select "News analyses ONLY".</p>
           </section>
 
+          {% if page.editor_name %}
+            <br>
+            <section class="altcointradingnet-bio container-center">
+            <p><strong>Edited by: {{ page.editor_name }}</strong></p>
+             <p>
+                {% if page.editor_name contains "Marc" %}
+                {{ site.bio.marc }}
+                {% else %}
+                {{ site.bio.jmt }}
+                {% endif %}
+              </p>
+             </section>
+             <br>
+          {% endif %}
+
           <div class="clearfix"></div>
 
           {% if page.related %}

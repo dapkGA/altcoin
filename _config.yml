@@ -32,6 +32,10 @@ post_dirs: false
 permalink: pretty
 # nvm ..
 
+bio:
+  marc: 'Marc Auf der Heyde is a 19 year old aspiring author based in Berlin, Germany. He has been involved in cryptocurrency since August 2016, and has been writing since 2008. Marc is the Founder and President of a <a target="_blank" href="https://www.theyoungauthors.com">platform for young authors</a> where they can share their creative works and get feedback from others. He will start studying Computer Science in September, 2018, in Glasgow and hopes to Branch out into Blockchain projects in the near future.'
+  jmt: 'JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.'
+
 author_details:
   - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: "https://t.co/karlvonbahnhof", email: "chris@altcointrading.net"}
   - {name: "tradingfanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
