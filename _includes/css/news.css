@@ -34,3 +34,9 @@
 text-decoration: none;
 color: #010b18;
 }
+
+#drops {
+  display: block;
+  clear:both;
+  width:100%;
+}

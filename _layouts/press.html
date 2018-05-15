@@ -24,8 +24,12 @@ layout: default-news
 					<p>Press contact: {{ page.contact }}</p>
 				</div>
       </div>
+
       <div class="row">
-        <div class="columns eight offset-by-two">
+        <div class="four columns nomargintop">
+          {% include sidebar.html %}
+        </div>
+        <div class="columns eight">
 	        <div>
 	          {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
 	        </div>
@@ -51,7 +55,7 @@ layout: default-news
  						</section>
  						<br>
              {% endif %}
-             
+
 						{% if page.comments %}
 						<h2 id="comments">Comments</h2>
 						<div id="disqus_thread"></div>
@@ -78,9 +82,7 @@ layout: default-news
 					</div><!-- press content -->
           </article>
         </div>
-        <div class="four columns nomargintop">
-          {% include sidebar.html %}
-        </div>
+
       </div>
   </div>
 </div>
