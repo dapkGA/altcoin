@@ -1,109 +1,122 @@
 ---
-layout: default-news
+layout: strat-news
 ---
-
-<!-- Cointraffic -->
-<script async src="//appsha1.cointraffic.io/js/?wkey=RCH5ZI"></script>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script type="text/javascript">
-$(document).ready(function($) {
-
-	$.get("https://api.teletext.io/api/v1/geo-ip", function(response) {
-		var country = response["alpha2"];
-  	console.log(country);
-		// ZA, IN, KR
-		if ( (country == 'ZA') || (country == 'IN') || (country == 'KR') ) {
-			$("#ad-generic").addClass("hidden");
-		} else {
-			$("#ad-iq").addClass("hidden");
-		}
-	});
-
-
-});
-</script>
 
 <div class="container" id="altcointrading-strategy">
   <div class="row">
 
      <div class="twelve columns post-content">
 
-       <div class="row">
-         <div class="columns eight">
-					 <div id="ad-generic">
-					 	{{ site.ads.binance728 }}
-					 </div>
-					 <div id="ad-iq">
-					 	{{ site.ads.iqcrypto728 }}
-					 </div>
-
-       	 </div><!--1st-->
-         <div class="columns four">
-  			    {% include dogeshare.html %}
-         </div><!--2nd-->
-       </div>
-
-       {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
-       <span id="note">
-         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
-         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
-
-         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
-
-         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
-       </span>
        <h1 class="post post-main">
+         Trading Strategy News Event Analyses |
           <strong>
             {{ page.title }}
           </strong>
         </h1>
+
+        <br>
+
+       <span class="note">
+         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
+         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
+         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+       </span>
+
         <br>
         <div>
           {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+          <p>
+            Follow us on Twitter for news, strategy and airdrop updates: <a target="_blank" href="https://twitter.com/altcointrading_"><u>@altcointrading_</u></a>
+          </p>
         </div>
       </div>
       <div class="row">
         <div class="columns eight">
           <article class="maincontent">
-            <div class="shifted-left">
-              {{ site.ads.aads728 }}
+
+            <div class="row">
+              <div class="columns twelve">
+                 {% include dogeshare.html %}
+              </div><!--2nd-->
             </div>
-            <p>
-              <a title="{{ site.title }} Subscribe" target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
-            </p>
+
             <hr>
             <div class="strategy-content">
-              {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
-            </div>
-            <p>
-              <em>
-                Join our Telegram group: <a title="{{ site.title }} Telegram" target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
-              </em>
 
-            </p>
-            <p>
-              {% if page.stories %}
-              <p>
-                <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
-              </p>
+            {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
 
-              <script type="application/ld+json">
-              {
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "name": "{{ page.author_name }}",
-                "url": "https://www.altcointrading.net",
-                "sameAs": [
-                  "{{ page.author }}"
-                ]
-              }
-              </script>
 
+            {% if page.editor_name %}
+            <br>
+            <section class="altcointradingnet-bio container-center">
+            <p><strong>Edited by: {{ page.editor_name }}</strong></p>
+						<p>
+              {% if page.editor_name contains "Marc" %}
+              {{ site.bio.marc }}
+              {% else %}
+              {{ site.bio.jmt }}
               {% endif %}
-
             </p>
+						</section>
+						<br>
+            {% endif %}
 
+
+						{% if page.comments %}
+
+						<h2 id="disqus_embed">Discussion</h2>
+
+						<div id="disqus_thread"></div>
+						<script>
+
+						var disqus_config = function () {
+						this.page.url = "{{site.url}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
+						this.page.identifier = "strategy{{page.identifier}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+						};
+
+						(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = 'https://altcointrading.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+						})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+						<p></p>
+
+						{% else %}
+
+						<p>&nbsp;</p>
+
+						<hr>
+
+						<p>Comments are disabled for this post.</p>
+
+						<hr>
+
+						{% endif %}
+
+            <section class="altcointradingnet-bio">
+              <p>
+                <strong>About the author</strong>
+              </p>
+              <p>
+                Written by <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>
+              </p>
+              <div>
+                {% for item in site.author_details %}
+                  {% if page.author_name contains item.name %}
+                    {% include bios/template.html %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </section>
+
+            <hr>
+
+					 </div><!-- strategy content -->
           </article>
         </div>
         <div class="four columns nomargintop">
@@ -111,3 +124,6 @@ $(document).ready(function($) {
         </div>
       </div>
   </div>
+</div>
+</div>
+</div>

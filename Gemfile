@@ -4,3 +4,5 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-last-modified-at"
+gem 'hash-joiner'
+gem 'json'

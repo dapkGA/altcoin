@@ -2,8 +2,15 @@
 <html amp lang="en">
 {% include head.html %}
 <body>
-<!-- Cointraffic -->
-<script async src="//appsha1.cointraffic.io/js/?wkey=RCH5ZI"></script>
+
+  <amp-user-notification
+    layout=nodisplay
+    id="amp-user-notification1"
+    data-persist-dismissal="true">
+    This site does NOT personalize content.
+    <a href="/legal/">Learn more</a>
+   <button on="tap:amp-user-notification1.dismiss">Cool</button>
+  </amp-user-notification>
 
 {% include header.html %}
 {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}

@@ -51,7 +51,7 @@
   
     <url>
       <loc>http://localhost:4000/press/tracetoio/</loc>
-      <lastmod>2018-05-15T09:08:33+00:00</lastmod>
+      <lastmod>2018-05-16T02:53:46+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -69,6 +69,26 @@
   
 
     <url>
+      <loc>http://localhost:4000/trading/2018/05/06/timing/</loc>
+      <lastmod>2018-05-22T09:04:38+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Opinion</news:genres>
+        <news:publication_date>2018-05-06T20:51:00+00:00</news:publication_date>
+        <news:title>What cryptotwitter talks about: Timing Tools</news:title>
+        <news:keywords>market-timing,timing-tools,swing-trading,trading-strategy,cryptocurrency-trading</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>http://localhost:4000/monero-forks-april-2018/</loc>
       <lastmod>2018-04-24T10:41:09+00:00</lastmod>
       <news:news>
@@ -80,6 +100,26 @@
         <news:publication_date>2018-04-23T15:15:00+00:00</news:publication_date>
         <news:title>Monero Forks Recap in April 2018</news:title>
         <news:keywords>popular,business-of-crypto,fundamentals,market-analysis,cryptocurrency-investing</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/software/2018/04/17/malware/</loc>
+      <lastmod>2018-05-22T09:05:21+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Opinion</news:genres>
+        <news:publication_date>2018-04-17T13:51:00+00:00</news:publication_date>
+        <news:title>Security Alert: Cryptomalware is getting mainstream</news:title>
+        <news:keywords>crypto-malware,ghostmining,cnet,zdnet,tecmint,kaspersky-labs,csoonline,securelist,security</news:keywords>
         
       </news:news>
     </url>

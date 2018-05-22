@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html amp lang="en">
+{% include head-strat.html %}
+<body>
+{% include header.html %}
+{{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
+<footer>
+  <div class="footer">
+    {% include footer.html %}
+  </div>
+</footer>
+</body>
+</html>

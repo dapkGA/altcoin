@@ -51,8 +51,8 @@
 
 <!--AMP-->
 <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+<script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
 
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
@@ -226,7 +226,13 @@ footer .container-center {line-height: 1.3;}
     background: #f9f9f9;
 }
 
-  .altcointradingnet-bio{
+  amp-user-notification, #amp-user-notification1 {
+    width: auto;
+    padding: 20px 20px 0;
+    background: #f9f9f9;
+}
+
+.altcointradingnet-bio{
   background: #f9f9f9;
   padding: 3em 2em 1em;
 }
@@ -355,10 +361,15 @@ color: #010b18;
 </head>
 
 <body>
-
-  <!-- Cointraffic
-  <script async src="//appsha1.cointraffic.io/js/?wkey=RCH5ZI"></script>-->
-
+  <amp-user-notification
+    layout=nodisplay
+    id="amp-user-notification1"
+    data-persist-dismissal="true">
+    This site does NOT personalize content.
+    <a href="/legal/">Learn more</a>
+   <button on="tap:amp-user-notification1.dismiss">Cool</button>
+  </amp-user-notification>
+  
 <div class="container header-wrap">
   <div class="row">
 

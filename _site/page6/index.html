@@ -26,7 +26,7 @@
 <meta property="og:description" content="Your independent portal on news analyses regarding crypto. Same content as on AltcoinTrading.NET but distilled to a more readable form without ads." />
 <meta property="og:url" content="http://localhost:4000/page6/" />
 <meta property="og:site_name" content="News AltcoinTrading.NET" />
-<meta property="og:updated_time" content="2018-05-15T11:27:10+00:00" />
+<meta property="og:updated_time" content="2018-05-22T09:31:52+00:00" />
 <meta property="og:image" content="http://localhost:4000/editorial/fork.jpg" />
 <meta property="og:image:secure_url" content="http://localhost:4000/editorial/fork.jpg" />
 <meta property="og:image:width" content="700" />
@@ -35,7 +35,9 @@
 <!--AMP-->
 <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<!--<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+-->
+<script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
 
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <!--<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>-->
@@ -140,7 +142,13 @@ footer .container-center {line-height: 1.3;}
     background: #f9f9f9;
 }
 
-  .altcointradingnet-bio{
+  amp-user-notification, #amp-user-notification1 {
+    width: auto;
+    padding: 20px 20px 0;
+    background: #f9f9f9;
+}
+
+.altcointradingnet-bio{
   background: #f9f9f9;
   padding: 3em 2em 1em;
 }
@@ -270,8 +278,15 @@ color: #010b18;
 </head>
 
 <body>
-<!-- Cointraffic -->
-<script async src="//appsha1.cointraffic.io/js/?wkey=RCH5ZI"></script>
+
+  <amp-user-notification
+    layout=nodisplay
+    id="amp-user-notification1"
+    data-persist-dismissal="true">
+    This site does NOT personalize content.
+    <a href="/legal/">Learn more</a>
+   <button on="tap:amp-user-notification1.dismiss">Cool</button>
+  </amp-user-notification>
 
 <div class="container header-wrap">
   <div class="row">
@@ -466,6 +481,68 @@ color: #010b18;
 
 
 
+      
+
+        <div class="row home-latest"  id="gtm-latest">
+          <div class="seven columns">
+            <h5 class="post">
+              <strong>
+                <span class="tag">Blog</span>&nbsp;
+                
+                <small>31 May 2017, 11:23 UTC, by KarlVonBahnhof</small>
+                <br>
+                <a  class="index-internal"  href="/okcoin-withdrawals/" title="OkCoin resumed BTC withdrawals">OkCoin resumed BTC withdrawals</a>
+              </strong>
+            </h5>
+            <div class="home-latest-excerpt">
+              UPDATE 13 Mar 2018, 19:21 UTC - We've got news from @cnLedger
+            </div>
+          </div>
+          
+          <div class="five columns">
+            <a  class="index-internal" href="/okcoin-withdrawals/" title="OkCoin resumed BTC withdrawals">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Altcoin Trading Blog"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+          
+        </div>
+      
+
+        <div class="row home-latest"  id="gtm-latest">
+          <div class="seven columns">
+            <h5 class="post">
+              <strong>
+                <span class="tag">Blog</span>&nbsp;
+                
+                <small>31 May 2017, 03:00 UTC, by KarlVonBahnhof</small>
+                <br>
+                <a  class="index-internal"  href="/okcoin-eth/" title="OkCoin Intl is adding ETH on June 1st 2017">OkCoin Intl is adding ETH on June 1st 2017</a>
+              </strong>
+            </h5>
+            <div class="home-latest-excerpt">
+              UPDATE 13 Mar 2018, 19:21 UTC - OKCoin.com, the --happy trading environment for everyone--, is adding ETH trading - that's spot ETH trading, don't forget the futures have moved to OKEx.com
+            </div>
+          </div>
+          
+          <div class="five columns">
+            <a  class="index-internal" href="/okcoin-eth/" title="OkCoin Intl is adding ETH on June 1st 2017">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-147485.jpeg" alt="Altcoin Trading Blog"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+          
+        </div>
       
 
         <div class="row home-latest"  id="gtm-latest">
@@ -705,68 +782,6 @@ color: #010b18;
             <a  class="index-internal" href="/gnosis/" title="The Gnosis thing">
               <figure class="thumb">
                 <amp-img itemprop="image" src="/img/coins/gnosis.png" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
-        </div>
-      
-
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>13 Apr 2017, 12:24 UTC, by KarlVonBahnhof</small>
-                <br>
-                <a  class="index-internal"  href="/time-vs-timing/" title="Opinion: Time in the market vs timing the market">Opinion: Time in the market vs timing the market</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 20 Feb 2018, 17:39 UTC - They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure.
-            </div>
-          </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/time-vs-timing/" title="Opinion: Time in the market vs timing the market">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/img/editorial/likeaboss.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
-        </div>
-      
-
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Opinion</span>&nbsp;
-                
-                <small>09 Apr 2017, 11:20 UTC, by KarlVonBahnhof</small>
-                <br>
-                <a  class="index-internal"  href="/litecoin-pump/" title="Litecoin: This time it's different?">Litecoin: This time it's different?</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 20 Feb 2018, 17:39 UTC - It's always different until it isn't and it's never different until it is.
-            </div>
-          </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/litecoin-pump/" title="Litecoin: This time it's different?">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/img/emotions/up.jpg" alt="Altcoin Trading Blog"
                 layout="responsive"
                 data-original-width="720px" data-original-height="360px"
                 width="150px" height="80px">
