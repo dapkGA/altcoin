@@ -5,6 +5,12 @@ navi:
  exclude: yes
 ---
 
+# Redirect default Netlify subdomain to primary domain
+https://news-atnet.netlify.com/* https://news.altcointrading.net/:splat 301!
+
+# These extra rules are required because HTTPS is not forced
+http://news-atnet.netlify.com/* https://news.altcointrading.net/:splat 301!
+
 /bitcoin-bots/ /automated-trading/ 301
 /exchanges/ /category/exchanges/ 301
 /sample-post/ / 301
