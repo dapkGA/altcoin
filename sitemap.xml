@@ -11,18 +11,9 @@ navi:
     <loc>{{ site.url }}{{ site.baseurl }}/sitemap-posts.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-strategy.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-security.xml</loc>
-  </sitemap>
-  <sitemap>
     <loc>{{ site.url }}{{ site.baseurl }}/sitemap-pressreleases.xml</loc>
   </sitemap>
   <sitemap>
     <loc>{{ site.url }}{{ site.baseurl }}/sitemap-markets.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-airdrops.xml</loc>
   </sitemap>
 </sitemapindex>
