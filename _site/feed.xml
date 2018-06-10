@@ -10,9 +10,165 @@
       <link>http://localhost:4000/</link>
     </image>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 May 2018 09:31:52 +0000</pubDate>
-    <lastBuildDate>Tue, 22 May 2018 09:31:52 +0000</lastBuildDate>
+    <pubDate>Sun, 10 Jun 2018 00:42:27 +0000</pubDate>
+    <lastBuildDate>Sun, 10 Jun 2018 00:42:27 +0000</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>Comparing Forex Market with Cryptocurrency Markets (Infographic)</title>
+        <description>One of the few metrics that cryptocurrency markets have in common with the forex markets in 2018 is the high percentage of total trades being located on few most popular markets.</description>
+
+        <author>#BusinessOfCrypto@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Sat, 09 Jun 2018 23:12:00 +0000</pubDate>
+        <link>http://localhost:4000/forex-vs-crypto</link>
+        <guid isPermaLink="true">http://localhost:4000/forex-vs-crypto</guid>
+        
+        <category>forex-training-group</category>
+        
+        <category>forex-vs-crypto</category>
+        
+        <category>businessofcrypto</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>Stealer Malware Targeting Cryptocurrency Owners Got Affordable</title>
+        <description>Clever business scheme emerged late in May 2018 that will make a good social engineer a lot of money.</description>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Mon, 04 Jun 2018 19:02:00 +0000</pubDate>
+        <link>http://localhost:4000/software/2018/06/04/nocturnal-stealer/</link>
+        <guid isPermaLink="true">http://localhost:4000/software/2018/06/04/nocturnal-stealer/</guid>
+        
+        <category>crypto-malware</category>
+        
+        <category>crypto-trojan</category>
+        
+        <category>cryptosecurity</category>
+        
+        <category>nocturnal-stealer</category>
+        
+        <category>information-stealer</category>
+        
+        <category>nocturnal</category>
+        
+        <category>threatpost</category>
+        
+        <category>proofpoint</category>
+        
+        <category>threatpost</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>The Stability of Stablecoins</title>
+        <description>Isn't it just NuBits all over again? The utility of stablecoins at the current stage of crypto might be misunderstood.</description>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Tue, 29 May 2018 18:48:00 +0000</pubDate>
+        <link>http://localhost:4000/stability-of-stablecoins/</link>
+        <guid isPermaLink="true">http://localhost:4000/stability-of-stablecoins/</guid>
+        
+        <category>business-of-crypto</category>
+        
+        <category>stablecoin</category>
+        
+        <category>stablecoins</category>
+        
+        <category>tether</category>
+        
+        <category>nubits</category>
+        
+        <category>havven</category>
+        
+        <category>trueusd</category>
+        
+        <category>dai</category>
+        
+        <category>makerdao</category>
+        
+        
+        <category>cryptotrading</category>
+        
+      </item>
+    
+      <item>
+        <title>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</title>
+        <description>Chye Kit in an interview explains how blockchain KYC relates to credit risk and why regulatory compliance is one of the sectors that actually gets more efficient when decentralized.</description>
+
+        <author>tradingfanbois@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Wed, 23 May 2018 15:15:00 +0000</pubDate>
+        <link>http://localhost:4000/traceto-interview/</link>
+        <guid isPermaLink="true">http://localhost:4000/traceto-interview/</guid>
+        
+        <category>business-of-crypto</category>
+        
+        <category>traceto</category>
+        
+        <category>aml-kyc</category>
+        
+        <category>digitising-kyc</category>
+        
+        <category>cynopsis</category>
+        
+        <category>cynopsis-solutions</category>
+        
+        <category>chye-kit-chionh</category>
+        
+        <category>chye-kit</category>
+        
+        
+        <category>interview</category>
+        
+      </item>
+    
+      <item>
+        <title>The new dangers of Telegram messenger</title>
+        <description>As Telegram exploits from May 2018 are not really juicy enough for the netsec community, malicious campaigns are passing quietly under the radar.</description>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>info@altcointrading.net</webmaster>
+
+        <pubDate>Tue, 22 May 2018 16:02:00 +0000</pubDate>
+        <link>http://localhost:4000/software/2018/05/22/telegram/</link>
+        <guid isPermaLink="true">http://localhost:4000/software/2018/05/22/telegram/</guid>
+        
+        <category>crypto-malware</category>
+        
+        <category>telegram</category>
+        
+        <category>telegrab</category>
+        
+        <category>talosintelligence</category>
+        
+        <category>talos</category>
+        
+        <category>kaspersky-labs</category>
+        
+        <category>threatpost</category>
+        
+        <category>securelist</category>
+        
+        <category>zdnet</category>
+        
+        
+        <category>software</category>
+        
+      </item>
     
       <item>
         <title>What cryptotwitter talks about: Timing Tools</title>
@@ -147,164 +303,6 @@
         
         
         <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>4 Reasons to Be Bullish on Ripple</title>
-        <description>The main scoop of the week is the result of Ripple's partnership with Western Union, but there's more.</description>
-
-        <author>Cameron@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Thu, 05 Apr 2018 09:35:00 +0000</pubDate>
-        <link>http://localhost:4000/ripple-bullish-fundamentals/</link>
-        <guid isPermaLink="true">http://localhost:4000/ripple-bullish-fundamentals/</guid>
-        
-        <category>ripple</category>
-        
-        <category>uphold</category>
-        
-        <category>western-union</category>
-        
-        <category>netherlands-central-bank</category>
-        
-        <category>altcoin-trading</category>
-        
-        
-        <category>altcoins</category>
-        
-      </item>
-    
-      <item>
-        <title>DEX Series, Episode 2: Copy trading</title>
-        <description>Legacy houses are capitalizing big on crypto followers. Can decentralized exchanges offer better experience in managed trading or is the space too crowded?</description>
-
-        <author>tradingfanbois@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Sun, 01 Apr 2018 02:58:00 +0000</pubDate>
-        <link>http://localhost:4000/dex-copytrading/</link>
-        <guid isPermaLink="true">http://localhost:4000/dex-copytrading/</guid>
-        
-        <category>business-of-crypto</category>
-        
-        <category>aurora-dao</category>
-        
-        <category>leverj-io</category>
-        
-        <category>altcoin-io</category>
-        
-        <category>0x</category>
-        
-        <category>ddex</category>
-        
-        <category>idex</category>
-        
-        <category>ron-bernstein</category>
-        
-        <category>non-custodial-trading</category>
-        
-        <category>airswap</category>
-        
-        
-        <category>exchanges</category>
-        
-      </item>
-    
-      <item>
-        <title>DEX Series, Episode 1: Trade Execution Management</title>
-        <description>On non-custodial trade execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for algo trading.</description>
-
-        <author>tradingfanbois@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Fri, 23 Mar 2018 15:35:00 +0000</pubDate>
-        <link>http://localhost:4000/dex-trading/</link>
-        <guid isPermaLink="true">http://localhost:4000/dex-trading/</guid>
-        
-        <category>leverj</category>
-        
-        <category>leverj-io</category>
-        
-        <category>altcoin-io</category>
-        
-        <category>0x</category>
-        
-        <category>ddex</category>
-        
-        <category>dex</category>
-        
-        <category>decentralized-exchange</category>
-        
-        <category>non-custodial-trading</category>
-        
-        <category>crypto-trading</category>
-        
-        
-        <category>dex</category>
-        
-        <category>exchanges</category>
-        
-      </item>
-    
-      <item>
-        <title>In the light of regulations: How about non-custodial derivative trading?</title>
-        <description>About the current importance of non-custodial trading, showcased on the LeverJ solution.</description>
-
-        <author>tradingfanbois@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Thu, 08 Mar 2018 01:35:00 +0000</pubDate>
-        <link>http://localhost:4000/regulations-decentralized-exchanges/</link>
-        <guid isPermaLink="true">http://localhost:4000/regulations-decentralized-exchanges/</guid>
-        
-        <category>leverj</category>
-        
-        <category>leverj-io</category>
-        
-        <category>dex</category>
-        
-        <category>decentralized-exchange</category>
-        
-        <category>crypto-trading</category>
-        
-        
-        <category>trading</category>
-        
-        <category>exchanges</category>
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Circle acquired Poloniex Exchange</title>
-        <description>Circle is acquiring Poloniex to strenghten Circle's position in the blockchain space.</description>
-
-        <author>tradingfanbois@altcointrading.net</author>
-        <webmaster>info@altcointrading.net</webmaster>
-
-        <pubDate>Mon, 26 Feb 2018 14:35:00 +0000</pubDate>
-        <link>http://localhost:4000/circle-poloniex/</link>
-        <guid isPermaLink="true">http://localhost:4000/circle-poloniex/</guid>
-        
-        <category>poloniex</category>
-        
-        <category>circle</category>
-        
-        <category>circlepay</category>
-        
-        <category>acquisition</category>
-        
-        <category>cryptocurrency-exchange</category>
-        
-        
-        <category>exchanges</category>
-        
-        <category>basics</category>
-        
-        <category>news</category>
         
       </item>
     

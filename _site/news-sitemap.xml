@@ -51,7 +51,7 @@
   
     <url>
       <loc>http://localhost:4000/press/tracetoio/</loc>
-      <lastmod>2018-05-16T02:53:46+00:00</lastmod>
+      <lastmod>2018-06-08T20:31:51+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
@@ -64,19 +64,149 @@
       </news:news>
     </url>
   
-
-  
-  
-
     <url>
-      <loc>http://localhost:4000/trading/2018/05/06/timing/</loc>
-      <lastmod>2018-05-22T09:04:38+00:00</lastmod>
+      <loc>http://localhost:4000/press/fundrequest-launch/</loc>
+      <lastmod>2018-06-01T01:54:13+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>PressRelease</news:genres>
+        <news:publication_date>2018-05-31T23:05:00+00:00</news:publication_date>
+        <news:title>FundRequest launches a Blockchain Marketplace that Rewards Developers for Open Source Contributions</news:title>
+        <news:keywords>fundrequest</news:keywords>
+      </news:news>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/press/crowdif/</loc>
+      <lastmod>2018-06-08T15:42:04+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>PressRelease</news:genres>
+        <news:publication_date>2018-06-07T18:05:00+00:00</news:publication_date>
+        <news:title>CrowdIF Token Sale Announcement</news:title>
+        <news:keywords>crowdif,token-sale</news:keywords>
+      </news:news>
+    </url>
+  
+
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/forex-vs-crypto</loc>
+      <lastmod>2018-06-10T00:42:26+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-06-09T23:12:00+00:00</news:publication_date>
+        <news:title>Comparing Forex Market with Cryptocurrency Markets (Infographic)</news:title>
+        <news:keywords>forex-training-group,forex-vs-crypto,businessofcrypto</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/software/2018/06/04/nocturnal-stealer/</loc>
+      <lastmod>2018-06-04T21:30:13+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-06-04T19:02:00+00:00</news:publication_date>
+        <news:title>Stealer Malware Targeting Cryptocurrency Owners Got Affordable</news:title>
+        <news:keywords>crypto-malware,crypto-trojan,cryptosecurity,nocturnal-stealer,information-stealer,nocturnal,threatpost,proofpoint,threatpost</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/stability-of-stablecoins/</loc>
+      <lastmod>2018-05-30T01:52:55+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-05-29T18:48:00+00:00</news:publication_date>
+        <news:title>The Stability of Stablecoins</news:title>
+        <news:keywords>business-of-crypto,stablecoin,stablecoins,tether,nubits,havven,trueusd,dai,makerdao</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/traceto-interview/</loc>
+      <lastmod>2018-05-25T13:51:01+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-05-23T15:15:00+00:00</news:publication_date>
+        <news:title>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</news:title>
+        <news:keywords>business-of-crypto,traceto,aml-kyc,digitising-kyc,cynopsis,cynopsis-solutions,chye-kit-chionh,chye-kit</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/software/2018/05/22/telegram/</loc>
+      <lastmod>2018-05-22T20:58:01+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2018-05-22T16:02:00+00:00</news:publication_date>
+        <news:title>The new dangers of Telegram messenger</news:title>
+        <news:keywords>crypto-malware,telegram,telegrab,talosintelligence,talos,kaspersky-labs,threatpost,securelist,zdnet</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/trading/2018/05/06/timing/</loc>
+      <lastmod>2018-05-22T09:51:54+00:00</lastmod>
+      <news:news>
+        <news:publication>
+          <news:name>News AltcoinTrading.NET</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2018-05-06T20:51:00+00:00</news:publication_date>
         <news:title>What cryptotwitter talks about: Timing Tools</news:title>
         <news:keywords>market-timing,timing-tools,swing-trading,trading-strategy,cryptocurrency-trading</news:keywords>
@@ -110,13 +240,13 @@
 
     <url>
       <loc>http://localhost:4000/software/2018/04/17/malware/</loc>
-      <lastmod>2018-05-22T09:05:21+00:00</lastmod>
+      <lastmod>2018-05-22T09:51:54+00:00</lastmod>
       <news:news>
         <news:publication>
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2018-04-17T13:51:00+00:00</news:publication_date>
         <news:title>Security Alert: Cryptomalware is getting mainstream</news:title>
         <news:keywords>crypto-malware,ghostmining,cnet,zdnet,tecmint,kaspersky-labs,csoonline,securelist,security</news:keywords>
@@ -1236,7 +1366,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-04-26T13:06:00+00:00</news:publication_date>
         <news:title>Grayscale did it</news:title>
         <news:keywords></news:keywords>
@@ -1256,7 +1386,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-04-25T12:06:00+00:00</news:publication_date>
         <news:title>The Gnosis thing</news:title>
         <news:keywords></news:keywords>
@@ -1296,7 +1426,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-04-09T11:20:00+00:00</news:publication_date>
         <news:title>Litecoin: This time it's different?</news:title>
         <news:keywords></news:keywords>
@@ -1336,7 +1466,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-03-22T04:20:00+00:00</news:publication_date>
         <news:title>Cryptosignal - ETH Hashrate vs Price Correlation</news:title>
         <news:keywords></news:keywords>
@@ -1356,7 +1486,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-03-18T17:20:00+00:00</news:publication_date>
         <news:title>Alphabay to adopt ETH for payments ahead of new privacy features</news:title>
         <news:keywords></news:keywords>
@@ -1376,7 +1506,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-03-10T00:00:00+00:00</news:publication_date>
         <news:title>Bitcoin ETF rejected, Ethereum ETF is probably off the table too</news:title>
         <news:keywords></news:keywords>
@@ -1416,7 +1546,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-03-01T00:00:00+00:00</news:publication_date>
         <news:title>Kraken acquires Cryptowatch, lead dev will work for them</news:title>
         <news:keywords></news:keywords>
@@ -1436,7 +1566,7 @@
           <news:name>News AltcoinTrading.NET</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog</news:genres>
         <news:publication_date>2017-02-01T00:00:00+00:00</news:publication_date>
         <news:title>Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet</news:title>
         <news:keywords></news:keywords>
