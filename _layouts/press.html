@@ -35,6 +35,14 @@ layout: default-news
 	        </div>
           <article class="maincontent">
             <div class="strategy-content press-content">
+
+              {% if page.canonical %}
+              <p>
+                This news originally appeared on <a href="{{ page.canonical }}">{{ page.author_name }}</a>.
+                <hr>
+              </p>
+              {% endif %}
+
               {{ content | replace: '<a href="http', '<a rel="nofollow,noopener" target="_blank" href="http' }}
 							<section class="sidebar-nl container-center">
 									Publishing of press releases and industry news should not be taken for endorsement from AltcoinTrading.NET or its editors.
