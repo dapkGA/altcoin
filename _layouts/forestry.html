@@ -37,7 +37,16 @@ layout: default-news
           <hr>
 
           <div>
+
+            {% if page.canonical %}
+            <p>
+              This news originally appeared on <a href="{{ page.canonical }}">{{ page.canonical }}</a>.
+              <hr>
+            </p>
+            {% endif %}
+
             {{ content }}
+            
             {% unless page.sponsored %}<p><em>Disclosure: This article is not sponsored by anyone in any form.</em></p>{% endunless %}
           </div>
 

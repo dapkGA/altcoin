@@ -44,6 +44,13 @@ layout: sec-news
             <hr>
             <div class="strategy-content">
 
+              {% if page.canonical %}
+              <p>
+                This news originally appeared on <a href="{{ page.canonical }}">{{ page.canonical }}</a>.
+                <hr>
+              </p>
+              {% endif %}
+
             {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
 
 
