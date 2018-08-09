@@ -49,6 +49,10 @@ layout: default-news
 							</section>
 						 <br>
 
+             {% if page.tags[0] %}Tagged as: {% for tag in page.tags %}
+             [{{ tag }}]&nbsp;{% endfor %}{% endif %}
+
+
              {% if page.editor_name %}
              <br>
              <section class="altcointradingnet-bio container-center">
